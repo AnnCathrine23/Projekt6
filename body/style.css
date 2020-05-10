@@ -1,10 +1,12 @@
 body {
   background-color: #d3d3d3;
+  margin: 0;
 }
 header {
   overflow: hidden;
   background-color: #212121;
   padding: 20px 10px;
+  width: 100%;
 }
 
 header a {
