@@ -1,0 +1,35 @@
+/*Body*/
+body {
+  font-style: Titillium;
+  background:
+}
+h1 h2{
+  padding: 10px 0 0 15px;
+}
+
+p {
+padding: 10px 0 0 15px;
+}
+/*Navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+li {
+  float: right;
+  font-family: Titillium;
+  font-size: px;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Titillium;
+}
