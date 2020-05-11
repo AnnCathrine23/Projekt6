@@ -33,3 +33,7 @@ li a {
   text-decoration: none;
   font-family: Titillium;
 }
+.navbar a.active {
+  background-color: #5fb45d;
+  color: white;
+}
