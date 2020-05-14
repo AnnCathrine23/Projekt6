@@ -101,14 +101,18 @@ header a.active {
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: right;
   }
 }
-
+/*
 .header-left {
   float: left;
 }
 
 .header-right {
   float: right;
+}
+
+@media screen and (max-width: 800px) {
+  .header-right { display: none; }   /* hide it elsewhere */
 }
