@@ -12,7 +12,6 @@ header {
 }
 
 header a {
-  float: left;
   color: white;
   text-align: center;
   padding: 12px;
@@ -47,11 +46,7 @@ header a.active {
 
 @media screen and (max-width: 500px) {
   header a {
-    float: none;
+    float: left;
     display: block;
     text-align: left;
-  }
-
-  .header-left {
-    float: none;
   }
