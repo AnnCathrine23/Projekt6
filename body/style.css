@@ -41,6 +41,10 @@ header a.active {
   float: left;
 }
 
+.header-right {
+  float: right;
+}
+
 @media screen and (max-width: 500px) {
   header a {
     float: none;
