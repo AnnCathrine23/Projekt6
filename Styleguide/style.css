@@ -1,17 +1,18 @@
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #222222;
   padding: 20px 10px;
 }
 
 /* Style the header links */
 .header a {
   float: left;
-  color: black;
+  color: #ffffff;
+  font-style: Arial, Helvetica, sans-serif;
   text-align: center;
-  padding: 12px;
+  padding: 15px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -24,13 +25,13 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ddd;
+  background-color: #d3d3d3;
   color: black;
 }
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #07c807;
   color: white;
 }
 
