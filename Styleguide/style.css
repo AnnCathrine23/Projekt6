@@ -13,8 +13,6 @@
   padding: 15px;
   text-decoration: none;
   font-size: 14px;
-  line-height: 25px;
-  border-radius: 4px;
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
@@ -25,7 +23,7 @@
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #d3d3d3;
+  background-color: #07c807;
   color: black;
 }
 
