@@ -1,3 +1,4 @@
+<!-- Til index topnav som er menuen -->
 .body {
   margin: 0;
 
@@ -95,4 +96,54 @@ main h1 {
 
 @media screen and (min-width: 600px) {
   a.show { display: none; }   /* hide it elsewhere */
+}
+.h2-no-p{
+  margin-bottom: 0.5em;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 3em;
+  justify-content: center;
+}
+.farve{
+  margin-right: 25px;
+  border: 1px solid #ebebeb;
+  margin-bottom: 30px;
+}
+.farve-navn{
+  font-size: 1.3em;
+  text-align: left;
+  padding: 5px 15px;
+}
+.description{
+  text-align: left;
+  padding: 5px 15px;
+  color: #8e8e8e;
+}
+.box{
+  width: 200px;
+  height: 100px;
+}
+.box-s{
+  width: 200px;
+  height: 75px;
+}
+.black{
+  background-color: black;
+}
+.green{
+  background-color: #5CB85C;
+}
+.neongreen{
+  background-color: #00FF00;
+}
+.darkblue{
+  background-color: #2C3E50;
+}
+.grey{
+  background-color: #D3D3D3;
+}
+.lightgrey{
+  background-color: #F9F9F9;
 }
