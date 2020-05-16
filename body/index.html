@@ -27,58 +27,66 @@
 </header>
 
 <body>
-<h1>Report</h1>
-<div class="table-margin">
-  <table>
-    <tr>
-      <th>ID</th>
-      <th>Name</th>
-      <th>Last changes</th>
-      <th>Planed</th>
-      <th>Result</th>
-      <th>Group</th>
-    </tr>
-    <tr>
-      <td>#1</td>
-      <td>Production A</td>
-      <td>2 hours ago</td>
-      <td>Today</td>
-      <td></td>
-      <td>All</td>
-    </tr>
-    <tr>
-      <td>#2</td>
-      <td>Production A</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>All</td>
-    </tr>
-    <tr>
-      <td>#3</td>
-      <td>Production A</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>All</td>
-    </tr>
-    <tr>
-      <td>#4</td>
-      <td>Production A</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>All</td>
-    </tr>
-  </table>
+<div class="page-margin">
+  <div class="left" "top">
+    <div class="top">
+      <h1>Report</h1>
+    </div>
+  </div>
+  <div class="right">
+    <div class="top">
+      <button class="button">Add new report</button>
+    </div>
+  </div>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Last changes</th>
+        <th>Planed</th>
+        <th>Result</th>
+        <th>Group</th>
+      </tr>
+      <tr>
+        <td>#1</td>
+        <td>Production A</td>
+        <td>2 hours ago</td>
+        <td>Today</td>
+        <td></td>
+        <td>All</td>
+      </tr>
+      <tr>
+        <td>#2</td>
+        <td>Production A</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>All</td>
+      </tr>
+      <tr>
+        <td>#3</td>
+        <td>Production A</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>All</td>
+      </tr>
+      <tr>
+        <td>#4</td>
+        <td>Production A</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>All</td>
+      </tr>
+    </table>
+  <a>Results</a>
+  <a id="result"></a>
+  <script>
+  var results = ["Production A", "Production B", "Production C", "Production D"];
+  document.getElementById("result").innerHTML = results.length;
+  </script>
 </div>
-
-<a>Results</a> <a id="result"></a>
-<script>
-var results = ["Production A", "Production B", "Production C", "Production D"];
-document.getElementById("result").innerHTML = results.length;
-</script>
-
 </body>
 
 </html>
