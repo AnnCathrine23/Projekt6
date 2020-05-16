@@ -6,3 +6,8 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+{
+var results = ["Production A", "Production B", "Production C", "Production D"];
+document.getElementById("result").innerHTML = results.length;
+}
