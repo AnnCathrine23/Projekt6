@@ -16,7 +16,7 @@ html, body {
   margin-right: 60px;
 }
 
-.body{
+body{
   background-repeat: no-repeat;
   background-color: #d3d3d3;
   width: 100%;
@@ -118,7 +118,7 @@ html, body {
   }
 
   #code-icon td, #code-icon th {
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     padding: 8px;
   }
 
@@ -141,9 +141,9 @@ a.button1 {
   display: inline-block;
   padding: 0.35em 1.2em;
   border: 0.1em solid green;
-  margin: 0 0.3em 0.3em 0;
+  margin: 0 0 0.3em 0;
   border-radius: 0.12em;
-  box-sizing: border-box;
+
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
