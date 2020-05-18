@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da-DK">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,9 +16,9 @@
     </div>
     <a class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
-      <a href="#home"class="active"><i class="fa fa-home"></i></a>
+      <a href="#home"><i class="fa fa-home"></i></a>
       <a class="#trendboards">Trendboards</a>
-      <a href="#reports">Reports</a>
+      <a href="#reports" class="active">Reports</a>
       <a href="#views">Views</a>
       <a href="#feeds">Feeds</a>
       <a href="#settings">Settings</a>
@@ -36,10 +36,11 @@
   </div>
   <div class="right">
     <div class="top">
-      <button class="button" title="Add new report">Add new report</button>
+      <a href="something" class="button1">Add new report</a>
     </div>
   </div>
     <table id="myTable">
+      <thead>
       <tr class="header">
         <th>ID</th>
         <th>Name</th>
@@ -51,54 +52,58 @@
         <th></th>
         <th></th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
         <th>#1</th>
-        <td>Production A</td>
-        <td>2 hours ago</td>
-        <td>Today</td>
-        <td></td>
-        <td>All</td>
-        <td><i class="fa fa-bars"></i></td>
-        <td><i class="fa fa-bars"></i></td>
-        <td><i class="fa fa-bars"></i></td>
+        <td><a href="#">Production A</a></td>
+        <th>2 hours ago</th>
+        <th>Today</th>
+        <th><a href="something" class="button2">Delivered</a></th>
+        <th>All</th>
+        <td><i class="fa fa-trash"></i></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-ellipsis-v"></i></td>
       </tr>
       <tr>
         <th>#2</th>
-        <td>Production B</td>
+        <td><a href="#">Production B</a></td>
         <td></td>
         <td></td>
         <td></td>
-        <td>All</td>
-        <td><i class="fa fa-bars"></i></td>
-        <td><i class="fa fa-bars"></i></td>
-        <td><i class="fa fa-bars"></i></td>
+        <th>All</th>
+        <td><i class="fa fa-trash"></i></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-ellipsis-v"></i></td>
       </tr>
       <tr>
         <th>#3</th>
-        <td>Production C</td>
+        <td><a href="#">Production C</a></td>
         <td></td>
         <td></td>
         <td></td>
-        <td>All</td>
-        <td><i class="fa fa-bars"></i></td>
-        <td><i class="fa fa-bars"></i></td>
-        <td><i class="fa fa-bars"></i></td>
+        <th>All</th>
+        <td><i class="fa fa-trash"></i></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-ellipsis-v"></i></td>
       </tr>
       <tr>
         <th>#4</th>
-        <td>Production D</td>
+        <td><a href="#">Production D</a></td>
         <td></td>
         <td></td>
         <td></td>
-        <td>All</td>
-        <td><i class="fa fa-bars"></i></td>
-        <td><i class="fa fa-bars"></i></td>
-        <td><i class="fa fa-bars"></i></td>
+        <th>All</th>
+        <td><i class="fa fa-trash"></i></td>
+        <td><i class="fa fa-edit"></i></td>
+        <td><i class="fa fa-ellipsis-v"></i></td>
       </tr>
+    </tbody>
     </table>
-
+<div class="results">
   <a>Results</a>
   <a id="result"></a>
+</div>
 </div>
 </body>
 </html>
