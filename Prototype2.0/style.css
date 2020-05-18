@@ -1,5 +1,3 @@
-/*
-Fra Trendlogs egen side
 html, body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
@@ -9,39 +7,22 @@ html, body {
     height: 100%;
     margin: 0;
 }
-*/
+
+.page-margin2{
+  margin-left: 0px;
+  margin-right: 62px;
+}
 
 .page-margin{
   margin-left: 60px;
   margin-right: 60px;
 }
 
-body{
-  background-repeat: no-repeat;
-  background-color: #d3d3d3;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-}
-.text{
-  font-family: Helvetica, sans-serif;
-}
-.text h1{
-  font-size: 50px;
-  text-align: center;
-}
-
-.text p {
-  padding: 10px;
-}
-
-.text a{
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
+h1 {
+    float: left;
+    font-weight: bold;
+    font-size: 50px;
+    /*Normal pageheader = 18px*/
 }
 
 .topnav {
@@ -50,15 +31,14 @@ body{
 }
 
 .topnav a {
-  font-family: Helvetica, sans-serif;
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .topnav a:hover {
@@ -69,6 +49,13 @@ body{
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+.topnav a img{
+max-height: 100%;
+margin: 0 auto;
+width: auto;
+padding: 14px 0 0 0;
 }
 
 .topnav .icon {
@@ -101,134 +88,82 @@ body{
   float: left;
 }
 
+.left img{
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin-left: 10px;
+  margin-right: 0%;
+  margin-top: 10px;
+}
+
 .right{
   float: right;
+}
+
+.top{
+  margin-top: 20px;
 }
 
 .show{
   height: 20px;
   text-decoration: none;
 }
-#code-icon {
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    margin-left:auto;
-    margin-right:auto;
-  }
-
-  #code-icon td, #code-icon th {
-    border: 1px solid #000000;
-    padding: 8px;
-  }
-
-  #code-icon tr:nth-child(even){background-color: #f2f2f2;}
-
-  #code-icon tr:hover {background-color: #ddd;}
-
-  #code-icon th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #333;
-    color: #4CAF50;
-  }
-main h1 {
-    text-align: center;
-}
-
-a.button1 {
-  display: inline-block;
-  padding: 0.35em 1.2em;
-  border: 0.1em solid green;
-  margin: 0 0 0.3em 0;
-  border-radius: 0.12em;
-
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  transition: all 0.2s;
-  background-color: green;
-}
-
-a.button1:hover {
-  color: black;
-  background-color: white;
-}
-@media all and (max-width:30em) {
-  a.button1 {
-    display: block;
-    margin: 0.4em auto;
-  }
-}
-
-a.button2 {
-  display: inline-block;
-  padding: 0.3em 1.2em;
-  margin: 0 0.3em 0.3em 0;
-  border-radius: 2em;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  color: white;
-  background-color: #4ee44e;
-  text-align: center;
-  transition: all 0.2s;
-}
 
 @media screen and (min-width: 600px) {
   a.show { display: none; }   /* hide it elsewhere */
 }
-.h2-no-p{
-  margin-bottom: 0.5em;
+
+#myInput {
+    width: 100%; /* Full-width */
+    position: relative;
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    background-image: url('img/search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+  }
+
+
+.border{
+  border: 3px solid #000000;
 }
-.wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 3em;
-  justify-content: center;
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  style: overflow-x:auto;
+  font-size: 25px;
 }
-.farve{
-  margin-right: 25px;
-  border: 1px solid #ebebeb;
-  margin-bottom: 30px;
-}
-.farve-navn{
-  font-size: 1.3em;
+
+th, td {
   text-align: left;
-  padding: 5px 15px;
+  padding: 8px;
+  border-bottom: 10px solid #d3d3d3;
+  background-color: #f9f9f9;
 }
-.description{
-  text-align: left;
-  padding: 5px 15px;
-  color: #8e8e8e;
+
+tr:nth-child(even) {
+  background-color: #d3d3d3;
 }
-.box{
-  width: 200px;
-  height: 100px;
+
+tr:hover {
+  background-color:#999999;
 }
-.box-s{
-  width: 200px;
-  height: 75px;
-}
-.black{
-  background-color: black;
-}
-.green{
-  background-color: #5CB85C;
-}
-.neongreen{
-  background-color: #00FF00;
-}
-.darkblue{
-  background-color: #2C3E50;
-}
-.grey{
-  background-color: #D3D3D3;
-}
-.lightgrey{
-  background-color: #F9F9F9;
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 20px
 }
