@@ -124,8 +124,18 @@ tr:hover {
   background-color:#999999;
 }
 
-
-
+.img1{
+  width: 160px;
+  height: 40px;
+}
+.img2{
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 main h1 {
     text-align: center;
