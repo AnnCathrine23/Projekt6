@@ -103,6 +103,7 @@ padding: 14px 0 0 0;
 
 #myInput {
     width: 100%; /* Full-width */
+    position: fixed;
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
@@ -110,7 +111,7 @@ padding: 14px 0 0 0;
     background-image: url('img/search.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    background-size: 1%;
+    background-size: 1.2em;
   }
 
 
