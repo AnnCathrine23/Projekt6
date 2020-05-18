@@ -168,20 +168,6 @@ tr:hover {
   margin-top: 20px
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
 .dropdown {
   float: left;
   overflow: hidden;
@@ -196,10 +182,6 @@ tr:hover {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
 }
 
 .dropdown-content {
@@ -226,4 +208,8 @@ tr:hover {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+@media screen and (max-width: 600px) {
+  div.dropdown { display: none; }  /* show it on small screens */
 }
