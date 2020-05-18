@@ -102,7 +102,7 @@ padding: 14px 0 0 0;
 
 
 #myInput {
-    width: 96.6%; /* Full-width */
+    width: 100%; /* Full-width */
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
