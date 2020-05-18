@@ -10,12 +10,14 @@
     <script src="style.js" defer></script>
 </head>
 <header>
+<nav>
   <div class="topnav" id="myTopnav">
     <div class="left">
       <img src="img/trendlog-logo.png" alt="Trendlog logo">
     </div>
     <a class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
+      <a class="show"></a>
       <a href="#home"class="active"><i class="fa fa-home"></i></a>
       <a class="#trendboards">Trendboards</a>
       <a href="#reports">Reports</a>
@@ -23,8 +25,22 @@
       <a href="#feeds">Feeds</a>
       <a href="#settings">Settings</a>
       <a href="#share">Share</a>
-    </a>
+      <a class="show">Profil</a>
+      <a class="show">Log af</a>
+      <div class="right">
+        <div class="dropdown">
+          <button class="dropbtn">
+            <i class="fa fa-caret-down"></i>
+            Dropdown
+          </button>
+        <div class="dropdown-content">
+          <a href="#">Min profil</a>
+          <a href="#">Log af</a>
+        </div>
+      </div>
+    </div>
   </div>
+</nav>
 </header>
 <body>
   <div class="page-margin2">
