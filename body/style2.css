@@ -1,3 +1,4 @@
+/*Style for body + page-margin*/
 html, body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
@@ -25,6 +26,7 @@ h1 {
     /*Normal pageheader = 18px*/
 }
 
+/*style for headern. Hvis noget skal rettes i header-navigationen, vil du finde det her*/
 .topnav {
   overflow: hidden;
   background-color: #222222;
@@ -41,7 +43,6 @@ h1 {
   font-size: 18px;
   /*trendlogs egen nav= 14px */
 }
-
 
 .topnav a:hover {
   background-color: #ddd;
@@ -116,47 +117,7 @@ padding: 14px 0 0 0;
   a.show { display: none; }   /* hide it elsewhere */
 }
 
-
-#myInput {
-    width: 100%; /* Full-width */
-    position: relative;
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
-    background-image: url('img/search.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    background-size: 1.2em;
-  }
-
-
-.border{
-  border: 3px solid #000000;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  style: overflow-x:auto;
-  font-size: 25px;
-}
-
-th, td {
-  text-align: left;
-  padding: 8px;
-  border-bottom: 10px solid #d3d3d3;
-  background-color: #f9f9f9;
-}
-
-tr:nth-child(even) {
-  background-color: #d3d3d3;
-}
-
-tr:hover {
-  background-color:#999999;
-}
-
+/* profil i headeren*/
 .dropdown {
   float: left;
   overflow: hidden;
@@ -200,11 +161,94 @@ tr:hover {
   display: block;
 }
 
+/* farven på ikonnet i profilen */
+
+.fa-user-alt{
+  color: #39fe45;
+}
+
 @media screen and (max-width: 600px) {
   div.dropdown { display: none; }  /* show it on small screens */
 }
 
-/*media til tabel*/
+/* searchbar style*/
+
+#myInput {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    background-image: url('img/search.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+  }
+
+/*Tabellens style */
+
+.border{
+  border: 3px solid #000000;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  style: overflow-x:auto;
+  font-size: 25px;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 10px solid #d3d3d3;
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+tr:hover {
+  background-color:#999999;
+}
+
+
+/* knappens stil */
+/*Add rapport knap*/
+  #myBtn {
+    display:inline-block;
+    padding:1em 1em;
+    border:0.1em solid green;
+    margin:13px 0 0 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: green;
+    position: relative;
+    cursor: pointer;
+  }
+
+  #myBtn:hover{
+    color:#000000;
+    background-color: white;
+    }
+
+    @media all and (max-width:30em){
+     #myBtn{
+    display:block;
+    margin:0.4em auto;
+     }
+    }
+
+/*media til tabellen*/
 
 @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
 
@@ -247,7 +291,7 @@ tr:hover {
 
 }
 
-/*Productions font style */
+/*hover effekt på production på tabellen */
 
 #myTable a:hover {
   color: green;
@@ -286,7 +330,7 @@ tr:hover {
   }
 
 
-  /* lukke knap*/
+  /* lukke knap på modal*/
   .close {
     color: #aaa;
     float: right;
@@ -300,39 +344,6 @@ tr:hover {
     text-decoration: none;
     cursor: pointer;
   }
-
-/* knappens stil */
-/*Add rapport knap*/
-  #myBtn {
-    display:inline-block;
-    padding:1em 1em;
-    border:0.1em solid green;
-    margin:13px 0 0 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    transition: all 0.2s;
-    background-color: green;
-    position: relative;
-    cursor: pointer;
-  }
-
-  #myBtn:hover{
-    color:#000000;
-    background-color: white;
-    }
-
-    @media all and (max-width:30em){
-     #myBtn{
-    display:block;
-    margin:0.4em auto;
-     }
-    }
     .button2 {
       display: inline-block;
       padding: 0.3em 1.2em;
@@ -384,9 +395,4 @@ tr:hover {
   margin-right: 30px;
   margin-left: 30px;
   font-weight: bold;
-}
-
-
-.fa-user-alt{
-  color: #39fe45;
 }
