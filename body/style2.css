@@ -324,7 +324,7 @@ tr:hover {
     font-family:'Roboto',sans-serif;
     font-weight: bold;
     color: white;
-    text-align:center;
+    text-align: center;
     transition: all 0.2s;
     background-color: green;
     position: relative;
