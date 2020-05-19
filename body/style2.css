@@ -257,8 +257,15 @@ tr:hover {
 }
 }
 
+/*Productions font style */
+
 #myTable a:hover {
   color: green;
+}
+
+#myTable a {
+  text-decoration: none;
+  color: black;
 }
 
 
