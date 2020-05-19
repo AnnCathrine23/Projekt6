@@ -10,7 +10,7 @@ function myFunction() {
 var results = ["Production A", "Production B", "Production C", "Production D"];
 document.getElementById("result").innerHTML = results.length;
 
-function myFunction() {
+function myFunction2() {
        // Declare variables
        var input, filter, table, tr, td, i, txtValue;
        input = document.getElementById("myInput");

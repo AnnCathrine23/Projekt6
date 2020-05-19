@@ -35,7 +35,7 @@ h1 {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1em 16px;
   text-decoration: none;
   font-weight: bold;
   font-size: 14px;
@@ -65,7 +65,7 @@ padding: 14px 0 0 0;
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: left;
+    float: right;
     display: block;
   }
 }
@@ -74,7 +74,7 @@ padding: 14px 0 0 0;
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
   }
   .topnav.responsive a {
@@ -113,6 +113,7 @@ padding: 14px 0 0 0;
 @media screen and (min-width: 600px) {
   a.show { display: none; }   /* hide it elsewhere */
 }
+
 
 #myInput {
     width: 100%; /* Full-width */
@@ -154,11 +155,6 @@ tr:hover {
   background-color:#999999;
 }
 
-#myTable a {
-  text-decoration: none;
-  color: black;
-}
-
 .button {
   background-color: #4CAF50;
   border: none;
@@ -171,101 +167,6 @@ tr:hover {
   margin: 4px 2px;
   cursor: pointer;
   margin-top: 20px
-}
-
-a.button1{
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.1em solid green;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight: bold;
-    color: white;
-    text-align:center;
-    transition: all 0.2s;
-    background-color: green;
-    position: relative;
-    font-size: 18px;
-    }
-
-    a.button1:hover{
-    color:#000000;
-    background-color: white;
-    }
-    @media all and (max-width:30em){
-     a.button1{
-    display:block;
-    margin:0.4em auto;
-     }
-    }
-
-    a.button2 {
-      display: inline-block;
-      padding: 0.3em 1.2em;
-      margin: 0 0.3em 0.3em 0;
-      border-radius: 2em;
-      box-sizing: border-box;
-      text-decoration: none;
-      font-family: 'Roboto', sans-serif;
-      font-weight: bold;
-      color: white;
-      background-color: #4ee44e;
-      text-align: center;
-      font-size: 15px;
-    }
-
-    @media screen and (min-width: 600px) {
-      a.show { display: none; }   /* hide it elsewhere */
-    }
-
-
-/*media til tabel*/
-
-@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
-
-  table {
-    width: 100%
-  }
-
-  table, tbody, th, td, tr, i {
-    display: block;
-  }
-
-  thead tr, th, i, p {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-
-  tr {
-    border: 3px solid #ccc;
-  }
-
-  td {
-    border: none;
-    border-bottom: 1px solid #eee;
-    position: relative;
-    font-weight: bold;
-    text-align: left;
-  }
-
-  .button1 {
-    position: absolute;
-    top: -99999px;
-    left: -9999px;
-  }
-.page-margin h1 {
-  position: absolute;
-  top: -99999px;
-  left: -9999px;
-}
-}
-
-#myTable a:hover {
-  color: green;
 }
 
 .dropdown {
@@ -312,4 +213,50 @@ a.button1{
 
 @media screen and (max-width: 600px) {
   div.dropdown { display: none; }  /* show it on small screens */
+}
+
+/*media til tabel*/
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+
+  table {
+    width: 100%
+  }
+
+  table, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr, th, p {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 3px solid #ccc;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .button1 {
+    position: absolute;
+    top: -99999px;
+    left: -9999px;
+  }
+.page-margin h1 {
+  position: absolute;
+  top: -99999px;
+  left: -9999px;
+}
+}
+
+#myTable a:hover {
+  color: green;
 }
