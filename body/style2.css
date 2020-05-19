@@ -246,7 +246,7 @@ tr:hover {
     text-align: left;
   }
 
-  .button1 {
+  #myBtn{
     position: absolute;
     top: -99999px;
     left: -9999px;
@@ -270,12 +270,54 @@ tr:hover {
   color: black;
 }
 
+/* modal popop */
+.modal {
+    display: none; /* gør at det er gemt */
+    position: fixed; /* gør at den sidder fast */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* gør at man kan scrolle, hvis man skal */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
 
-a.button1{
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 250px;
+  }
+
+  .modal-content h1, p{
+      color: black;
+      text-align: center;
+  }
+
+  /* lukke knap*/
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* knappens stil */
+
+  #myBtn {
     display:inline-block;
     padding:0.35em 1.2em;
-    border:0.1em solid #4CAF50;
-    margin:0 0 0 0;
+    border:0.1em solid green;
+    margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
@@ -284,24 +326,21 @@ a.button1{
     color: white;
     text-align:center;
     transition: all 0.2s;
-    background-color: #4CAF50;
+    background-color: green;
     position: relative;
-    font-size: 18px;
-    }
+  }
 
-/*knap style*/
-
-    a.button1:hover{
+  #myBtn:hover{
     color:#000000;
     background-color: white;
     }
+
     @media all and (max-width:30em){
-     a.button1{
+     #myBtn{
     display:block;
     margin:0.4em auto;
      }
     }
-
     a.button2 {
       display: inline-block;
       padding: 0.3em 1.2em;
