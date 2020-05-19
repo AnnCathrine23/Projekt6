@@ -155,19 +155,7 @@ tr:hover {
   background-color:#999999;
 }
 
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  margin-top: 20px
-}
+
 
 .dropdown {
   float: left;
@@ -291,7 +279,7 @@ tr:hover {
     width: 250px;
   }
 
-  .modal-content h1, p{
+  .modal-content p{
       color: black;
       text-align: center;
   }
@@ -312,18 +300,19 @@ tr:hover {
   }
 
 /* knappens stil */
-
+/*Add rapport knap*/
   #myBtn {
     display:inline-block;
-    padding:0.35em 1.2em;
+    padding:1em 1em;
     border:0.1em solid green;
-    margin:0 0.3em 0.3em 0;
+    margin:13px 0 0 0;
     border-radius:0.12em;
     box-sizing: border-box;
     text-decoration:none;
     font-family:'Roboto',sans-serif;
+    font-size: 14px;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
     text-align: center;
     transition: all 0.2s;
     background-color: green;
