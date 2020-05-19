@@ -274,7 +274,7 @@ tr:hover {
 a.button1{
     display:inline-block;
     padding:0.35em 1.2em;
-    border:0.1em solid green;
+    border:0.1em solid #4CAF50;
     margin:0 0.3em 0.3em 0;
     border-radius:0.12em;
     box-sizing: border-box;
@@ -284,7 +284,7 @@ a.button1{
     color: white;
     text-align:center;
     transition: all 0.2s;
-    background-color: green;
+    background-color: #4CAF50;
     position: relative;
     font-size: 18px;
     }
