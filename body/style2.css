@@ -479,7 +479,7 @@ tr:hover {
 }
 
 .tab button.active {
-    background-color: #ccc;
+    background-color: #2C3E50;
   }
 
 /* Style the tab content */
@@ -519,4 +519,35 @@ tr:hover {
   width: 25%;
   margin-bottom: 20px;
   font-size: 20px;
+}
+
+.genvejsikon {
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  color: white;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 50px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+  margin-right: 15px;
+  border-radius: 12px;
+}
+
+.genvejsikon i{
+  color: #000000;
+  padding-top: 25%;
+}
+
+.genvejsikonafstand{
+position: relative;
+float: right;
+width: 100px;
+top: 18%;
+}
+
+.genvejsikonafstand div{
+  margin: 10%;
 }
