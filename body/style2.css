@@ -184,6 +184,7 @@ padding: 14px 0 0 0;
     background-position: 10px 10px;
     background-repeat: no-repeat;
     background-size: 1.2em;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),0 6.7px 5.3px rgba(0, 0, 0, 0.048);
   }
 
 /*Tabellens style */
