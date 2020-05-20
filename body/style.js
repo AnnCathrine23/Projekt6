@@ -7,6 +7,7 @@ function myFunction() {
   }
 }
 
+// der er en lille fejl på denne kode 
 var results = ["Production A", "Production B", "Production C", "Production D"];
 document.getElementById("result").innerHTML = results.length;
 

@@ -2,74 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style2.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="shortcut icon" type="image/icon" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/2ba32b1de7.js" crossorigin="anonymous"></script>
+    <title>Trendlog</title>
     <script src="style.js" defer></script>
 </head>
-<body>
-    <header>
-        <nav>
-          <div class="topnav" id="myTopnav">
-            <div class="left">
-              <img src="img/trendlog-logo.png" alt="Trendlog logo">
-            </div>
-            <a class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-            <a class="show"></a>
-            <a href="#home"><i class="fa fa-home"></i></a>
-            <a class="#trendboards">Trendboards</a>
-            <a href="#reports" class="active">Reports</a>
-            <a href="#views">Views</a>
-            <a href="#feeds">Feeds</a>
-            <a href="#settings">Settings</a>
-            <a href="#share">Share</a>
-            <a class="show">Profil</a>
-            <a class="show">Log af</a>
-            <div class="right">
-              <div class="dropdown">
-                <button class="dropbtn">
-                  Mads Hansen
-                  <i class="fas fa-user-alt"></i>
-                </button>
-                <div class="dropdown-content">
-                  <a href="#">Min profil</a>
-                  <a href="#">Log af</a>
-                </div>
-              </div>
-            </div>
+<header>
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <div class="left">
+        <img src="img/trendlog-logo.png" alt="Trendlog logo">
+      </div>
+      <a class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a class="show"></a>
+      <a href="#home"><i class="fa fa-home"></i></a>
+      <a class="#trendboards">Trendboards</a>
+      <a href="#reports" class="active">Reports</a>
+      <a href="#views">Views</a>
+      <a href="#feeds">Feeds</a>
+      <a href="#settings">Settings</a>
+      <a href="#share">Share</a>
+      <a class="show">Profil</a>
+      <a class="show">Log af</a>
+      <div class="right">
+        <div class="dropdown">
+          <button class="dropbtn">
+            Mads Hansen
+            <i class="fas fa-user-alt"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Min profil</a>
+            <a href="#">Log af</a>
           </div>
-        </nav>
-      </header>
-      <body>
-
-        <div class="tab">
-          <button class="tablinks" onclick="openTab(event, 'Text')" id="defaultOpen">Text editor</button>
-          <button class="tablinks" onclick="openTab(event, 'Color')">Color scheme</button>
-          <button class="tablinks" onclick="openTab(event, 'Layout')">Layout</button>
-          <button class="tablinks" onclick="openTab(event, 'Data')">Dataform</button>
         </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<body>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Text')" id="defaultOpen">Text editor</button>
+    <button class="tablinks" onclick="openTab(event, 'Color')">Color scheme</button>
+    <button class="tablinks" onclick="openTab(event, 'Layout')">Layout</button>
+    <button class="tablinks" onclick="openTab(event, 'Data')">Dataform</button>
+  </div>
 
-        <div id="Text" class="tabcontent">
-          <h3>Text</h3>
-          <p>London is the capital city of England.</p>
-        </div>
+  <div id="Text" class="tabcontent">
+    <h3>Text</h3>
+    <p>London is the capital city of England.</p>
+  </div>
 
-        <div id="Color" class="tabcontent">
-          <h3>Color</h3>
-          <p>Paris is the capital of France.</p>
-        </div>
+  <div id="Color" class="tabcontent">
+    <h3>Color</h3>
+    <p>Paris is the capital of France.</p>
+  </div>
 
-        <div id="Layout" class="tabcontent">
-          <h3>Layout</h3>
-          <p>Tokyo is the capital of Japan.</p>
-        </div>
+  <div id="Layout" class="tabcontent">
+    <h3>Layout</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
 
-        <div id="Data" class="tabcontent">
-          <h3>Data</h3>
-          <p>Tokyo is the capital of Japan.</p>
-        </div>
-
+  <div id="Data" class="tabcontent">
+    <h3>Data</h3>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
 </body>
 </html>
