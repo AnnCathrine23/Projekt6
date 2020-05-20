@@ -422,7 +422,9 @@ tr:hover {
   text-align: left;
   cursor: pointer;
   transition: 0.3s;
-  font-size: 17px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /* Change background color of buttons on hover */
@@ -447,8 +449,28 @@ tr:hover {
   display: none;
 }
 
-.kage select{
-  width: 80%;
+.selectbox{
+  margin-left: 4px;
+}
+
+.selectbox select{
+  width: 75%;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.selectbox label{
+  font-size: 25px;
+}
+
+.selectbox h3{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.selectbox div{
+  width: 25%;
   margin-bottom: 20px;
   font-size: 20px;
 }
