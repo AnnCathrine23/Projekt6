@@ -7,7 +7,7 @@ function myFunction() {
   }
 }
 
-// der er en lille fejl på denne kode 
+// der er en lille fejl på denne kode
 var results = ["Production A", "Production B", "Production C", "Production D"];
 document.getElementById("result").innerHTML = results.length;
 
@@ -76,6 +76,3 @@ window.onclick = function(event) {
     document.getElementById(styleTab).style.display = "block";
     evt.currentTarget.className += " active";
   }
-
-  // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultOpen").click();
