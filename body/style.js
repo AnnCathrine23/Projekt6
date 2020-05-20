@@ -62,7 +62,6 @@ window.onclick = function(event) {
 
 //tabs
 
-
   function openTab(evt, styleTab) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");

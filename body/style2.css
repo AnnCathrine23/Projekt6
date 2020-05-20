@@ -446,3 +446,9 @@ tr:hover {
   margin-left: 250px;
   display: none;
 }
+
+.kage select{
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
