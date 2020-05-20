@@ -65,6 +65,52 @@ padding: 14px 0 0 0;
   display: none;
 }
 
+/* #############################################
+// =============== table css start =============
+// ###########################################*/
+
+.rows-section{
+    width: 100%;
+}
+
+.section-header, .row {
+  display: flex;
+  box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.5);
+  background-color: white;
+}
+
+.section-header {
+  height: 60px;
+}
+
+.header-small, .row-small {
+  flex: 2;
+  padding-left: 8px;
+}
+
+.header-medium, .row-medium {
+  flex: 6;
+}
+
+.header-big, .row-big {
+  flex: 9;
+}
+
+.row {
+    height: 48px;
+    margin-top: 8px;
+}
+
+.row-text {
+  font-size: 16px;
+}
+
+
+/* #############################################
+// =============== table css slut ==============
+// ###########################################*/
+
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -353,7 +399,7 @@ tr:hover {
       text-decoration: none;
       font-family: 'Roboto', sans-serif;
       font-weight: bold;
-      color: white;
+      color: white !important;
       background-color: #4CAF50;
       text-align: center;
       font-size: 15px;
