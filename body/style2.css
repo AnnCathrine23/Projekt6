@@ -461,13 +461,13 @@ tr:hover {
   margin-top: 20px;
   margin-bottom: 5px;
 }
-
-.selectbox div{
+/*kommentar til frederik!!
+selectbox div{
   width: 25%;
   margin-bottom: 20px;
   font-size: 20px;
 }
-
+*/
 
 /* genvejs ikoner i siden */
 
@@ -515,6 +515,8 @@ top: 18%;
 
   margin-left: 70px;
 }
+
+
 
 
 /* page A4 */
