@@ -8,7 +8,7 @@ function myFunction() {
 }
 
 // der er en lille fejl på denne kode
-var results = ["Production A", "Production B", "Production C", "Production D"];
+const results = ["Production A", "Production B", "Production C", "Production D"];
 document.getElementById("result").innerHTML = results.length;
 
 function myFunction2() {
@@ -35,13 +35,13 @@ function myFunction2() {
 
 // modals javascript
      // Get the modal
-let modal = document.getElementById("myModal");
+const modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-let btn = document.getElementById("myBtn");
+const btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-let span = document.getElementsByClassName("close")[0];
+const span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
@@ -63,13 +63,12 @@ window.onclick = function(event) {
 //tabs
 
   function openTab(evt, styleTab) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
+    const tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
       tabcontent[i].style.display = "none";
     }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
+    const tablinks = document.getElementsByClassName("tablinks");
+    for (let i = 0; i < tablinks.length; i++) {
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementById(styleTab).style.display = "block";
