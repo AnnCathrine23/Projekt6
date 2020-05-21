@@ -449,6 +449,8 @@ tr:hover {
   display: none;
 }
 
+/* Skrifttype */
+
 .selectbox{
   margin-left: 4px;
 }
@@ -474,6 +476,9 @@ tr:hover {
   margin-bottom: 20px;
   font-size: 20px;
 }
+
+
+/* genvejs ikoner i siden */
 
 .genvejsikon {
   background-color: #ffffff;
@@ -515,6 +520,8 @@ top: 18%;
   margin: 10%;
 }
 
+/* page A4 */
+
 page {
   background: white;
   display: block;
@@ -528,3 +535,18 @@ page[size="A4"] {
   width: 21cm;
   height: 29.7cm;
 }
+
+/* Media til ikoner genvej */
+@media only screen and (max-width: 1030px) {
+
+  .genvejsikon {
+    width: 100%
+  }
+
+  .genvejsikon {
+    display: block;
+  }
+
+  .genvejsikon {
+    display: none;
+  }
