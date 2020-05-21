@@ -420,7 +420,7 @@ tr:hover {
   float: left;
   background-color: #2C3E50;
   color: white;
-  width: 20%;
+  width: 14.77%;
   height: 130%;
   padding: 0px 12px;
   margin-left: 250px;
@@ -431,20 +431,33 @@ tr:hover {
 
 .selectbox{
   margin-left: 4px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(200, 200, 200);
 }
 
 .selectbox select{
-  width: 75%;
-  margin-bottom: 20px;
+  width: 90%;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 
 .selectbox label{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .selectbox h3{
   font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-bottom: 1px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.selectbox h4{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
   margin-top: 20px;
   margin-bottom: 5px;
 }
