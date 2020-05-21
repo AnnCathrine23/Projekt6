@@ -550,3 +550,27 @@ page[size="A4"] {
   .genvejsikon {
     display: none;
   }
+
+  @media screen and (max-width: 600px) {
+    page[size="A4"] {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 90%;
+  }}
+
+  @media screen and (max-width: 1475px) and (min-width: 601px){
+    page[size="A4"] {
+    width: 10.5cm;
+    height: 14.85cm;
+    margin-left: 55%;
+  }}
+
+  @media screen and (max-width: 600px) {
+    .tab{
+      display: none;
+    }
+    .tabcontent{
+      display: none;
+    }
+  }
