@@ -73,18 +73,18 @@
           <option value="bolditalic">Bold Italic</option>
           <option value="black">Black</option>
         </select>
-          <div>
-            <select name="fontsize" id="fontsize">
-              <option value="fontsize8">8</option>
-              <option value="fontsize9">9</option>
-              <option value="fontsize10">10</option>
-              <option value="fontsize11">11</option>
-              <option value="fontsize12">12</option>
-              <option value="fontsize14">14</option>
-              <option value="fontsize16">16</option>
-              <option value="fontsize18">18</option>
-            </select>
-          </div>
+        <div>
+          <select name="fontsize" id="fontsize">
+            <option value="fontsize8">8</option>
+            <option value="fontsize9">9</option>
+            <option value="fontsize10">10</option>
+            <option value="fontsize11">11</option>
+            <option value="fontsize12">12</option>
+            <option value="fontsize14">14</option>
+            <option value="fontsize16">16</option>
+            <option value="fontsize18">18</option>
+          </select>
+        </div>
       </form>
     </div>
   </div>
@@ -128,31 +128,37 @@
           <br>
     </div>
     <div class="selectbox">
-          <h4>Box 1</h4>
-        <label>Box 1</label>
+      <h4>Box 1</h4>
+      <form>
+        <label>Data / Content</label>
           <br>
-        <select name="fontweight" id="fontweight">
-          <option value="regular">Regular</option>
-          <option value="narrow">Narrow</option>
-          <option value="narrowitalic">Narrow Italic</option>
-          <option value="narrowbolditalic">Narrow Bold Italic</option>
-          <option value="italic">Italic</option>
-          <option value="bold">Bold</option>
-          <option value="bolditalic">Bold Italic</option>
-          <option value="black">Black</option>
+        <select name="data" id="data">
+          <option value="stoptime">Stop time</option>
+          <option value="unitproduced">Unit produced</option>
+          <option value="runtime">Run time</option>
         </select>
           <br>
-        <label>Charts for box 1</label>
+        <label>Charts</label>
           <br>
-        <select name="fontweight" id="fontweight">
-          <option value="regular">Regular</option>
-          <option value="narrow">Narrow</option>
-          <option value="narrowitalic">Narrow Italic</option>
-          <option value="narrowbolditalic">Narrow Bold Italic</option>
-          <option value="italic">Italic</option>
-          <option value="bold">Bold</option>
-          <option value="bolditalic">Bold Italic</option>
-          <option value="black">Black</option>
+        <select name="charts" id="charts">
+          <option value="barchart">Bar chart</option>
+          <option value="linechart">Line chart</option>
+          <option value="pie">Pie</option>
+          <option value="landscapepillar">Landscape pillar</option>
+          <option value="radar">Radar</option>
+          <option value="histogram">Histogram</option>
+          <option value="waterfall">Waterfall</option>
+          <option value="funnel">Funnel</option>
+        </select>
+          <br>
+        <label>Date & time</label>
+          <br>
+        <select name="date" id="date">
+          <option value="perminute">Per minute</option>
+          <option value="perhour">Per hour</option>
+          <option value="day">Day</option>
+          <option value="week">Week</option>
+          <option value="month">Month</option>
         </select>
       </form>
     </div>
@@ -161,36 +167,103 @@
       <form>
         <label>Data / Content</label>
           <br>
-        <select name="skrifttype" id="skrifttype">
-          <option value="arial">Arial</option>
-          <option value="helvetica">Helvetica</option>
-          <option value="calibri">Calibri</option>
+        <select name="data" id="data">
+          <option value="stoptime">Stop time</option>
+          <option value="unitproduced">Unit produced</option>
+          <option value="runtime">Run time</option>
         </select>
           <br>
         <label>Charts</label>
           <br>
-        <select name="fontweight" id="fontweight">
-          <option value="regular">Regular</option>
-          <option value="narrow">Narrow</option>
-          <option value="narrowitalic">Narrow Italic</option>
-          <option value="narrowbolditalic">Narrow Bold Italic</option>
-          <option value="italic">Italic</option>
-          <option value="bold">Bold</option>
-          <option value="bolditalic">Bold Italic</option>
-          <option value="black">Black</option>
+        <select name="charts" id="charts">
+          <option value="barchart">Bar chart</option>
+          <option value="linechart">Line chart</option>
+          <option value="pie">Pie</option>
+          <option value="landscapepillar">Landscape pillar</option>
+          <option value="radar">Radar</option>
+          <option value="histogram">Histogram</option>
+          <option value="waterfall">Waterfall</option>
+          <option value="funnel">Funnel</option>
         </select>
           <br>
         <label>Date & time</label>
           <br>
-        <select name="fontweight" id="fontweight">
-          <option value="regular">Regular</option>
-          <option value="narrow">Narrow</option>
-          <option value="narrowitalic">Narrow Italic</option>
-          <option value="narrowbolditalic">Narrow Bold Italic</option>
-          <option value="italic">Italic</option>
-          <option value="bold">Bold</option>
-          <option value="bolditalic">Bold Italic</option>
-          <option value="black">Black</option>
+        <select name="date" id="date">
+          <option value="perminute">Per minute</option>
+          <option value="perhour">Per hour</option>
+          <option value="day">Day</option>
+          <option value="week">Week</option>
+          <option value="month">Month</option>
+        </select>
+      </form>
+    </div>
+    <div class="selectbox">
+      <h4>Box 3</h4>
+      <form>
+        <label>Data / Content</label>
+          <br>
+        <select name="data" id="data">
+          <option value="stoptime">Stop time</option>
+          <option value="unitproduced">Unit produced</option>
+          <option value="runtime">Run time</option>
+        </select>
+          <br>
+        <label>Charts</label>
+          <br>
+        <select name="charts" id="charts">
+          <option value="barchart">Bar chart</option>
+          <option value="linechart">Line chart</option>
+          <option value="pie">Pie</option>
+          <option value="landscapepillar">Landscape pillar</option>
+          <option value="radar">Radar</option>
+          <option value="histogram">Histogram</option>
+          <option value="waterfall">Waterfall</option>
+          <option value="funnel">Funnel</option>
+        </select>
+          <br>
+        <label>Date & time</label>
+          <br>
+        <select name="date" id="date">
+          <option value="perminute">Per minute</option>
+          <option value="perhour">Per hour</option>
+          <option value="day">Day</option>
+          <option value="week">Week</option>
+          <option value="month">Month</option>
+        </select>
+      </form>
+    </div>
+    <div class="selectbox">
+      <h4>Box 4</h4>
+      <form>
+        <label>Data / Content</label>
+          <br>
+        <select name="data" id="data">
+          <option value="stoptime">Stop time</option>
+          <option value="unitproduced">Unit produced</option>
+          <option value="runtime">Run time</option>
+        </select>
+          <br>
+        <label>Charts</label>
+          <br>
+        <select name="charts" id="charts">
+          <option value="barchart">Bar chart</option>
+          <option value="linechart">Line chart</option>
+          <option value="pie">Pie</option>
+          <option value="landscapepillar">Landscape pillar</option>
+          <option value="radar">Radar</option>
+          <option value="histogram">Histogram</option>
+          <option value="waterfall">Waterfall</option>
+          <option value="funnel">Funnel</option>
+        </select>
+          <br>
+        <label>Date & time</label>
+          <br>
+        <select name="date" id="date">
+          <option value="perminute">Per minute</option>
+          <option value="perhour">Per hour</option>
+          <option value="day">Day</option>
+          <option value="week">Week</option>
+          <option value="month">Month</option>
         </select>
       </form>
     </div>

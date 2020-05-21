@@ -461,14 +461,18 @@ tr:hover {
   margin-top: 20px;
   margin-bottom: 5px;
 }
-/*kommentar til frederik!!
-selectbox div{
+
+.selectbox div select{
   width: 25%;
   margin-bottom: 20px;
   font-size: 20px;
 }
-*/
 
+form i{
+  width: 25%;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
 /* genvejs ikoner i siden */
 
 .genvejsikon {
