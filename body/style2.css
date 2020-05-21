@@ -401,7 +401,7 @@ tr:hover {
 .tab {
     position: absolute;
     width: 250px;
-    height: 100%;
+    height: 130%;
     top:0;
     left: 0;
     bottom: 0;
@@ -443,7 +443,7 @@ tr:hover {
   background-color: #2C3E50;
   color: white;
   width: 20%;
-  height: 100%;
+  height: 130%;
   padding: 0px 12px;
   margin-left: 250px;
   display: none;
