@@ -145,6 +145,12 @@ padding: 14px 0 0 0;
   color: #39fe45;
 }
 
+.fa-edit {
+  text-decoration: none;
+  color: black;
+
+}
+
 @media screen and (max-width: 600px) {
   div.dropdown { display: none; }  /* show it on small screens */
 }
@@ -546,6 +552,26 @@ home-page[size="A4"] img {
   width: 100%;
   height: 100%;
 }
+
+
+home-page2 {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  margin-top: 60px;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+  home-page2[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+  }
+
+  home-page2[size="A4"] img {
+  width: 100%;
+  height: 100%;
+  }
+
 
 /* color scheme*/
 
