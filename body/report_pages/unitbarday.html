@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="shortcut icon" type="image/icon" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/2ba32b1de7.js" crossorigin="anonymous"></script>
+    <title>Trendlog</title>
+    <script src="style.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <div class="left">
+          <img src="img/trendlog-logo.png" alt="Trendlog logo">
+        </div>
+        <a class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a class="show"></a>
+        <a href="#home"><i class="fa fa-home"></i></a>
+        <a class="#trendboards">Trendboards</a>
+        <a href="index.html" class="active">Reports</a>
+        <a href="#views">Views</a>
+        <a href="#feeds">Feeds</a>
+        <a href="#settings">Settings</a>
+        <a href="#share">Share</a>
+        <a class="show">Profil</a>
+        <a class="show">Log af</a>
+        <div class="right">
+          <div class="dropdown">
+            <button class="dropbtn">
+              Mads Hansen
+              <i class="fas fa-user-alt"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Min profil</a>
+              <a href="#">Log af</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Text')" id="defaultOpen">Text editor</button>
+    <button class="tablinks" onclick="openTab(event, 'Color')">Color scheme</button>
+    <button class="tablinks" onclick="openTab(event, 'Layout')">Layout</button>
+    <button class="tablinks" onclick="openTab(event, 'Data')">Dataform</button>
+  </div>
+  <div id="Text" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times;</span>
+    <div class="selectbox">
+      <h3>Text editor</h3>
+      <form>
+          <br>
+        <select name="skrifttype" id="skrifttype" onchange="location = this. value;">
+          <option value="index.html">Arial</option>
+          <option value="index.html">Helvetica</option>
+          <option value="calibri">Calibri</option>
+        </select>
+        <select name="fontweight" id="fontweight">
+          <option value="regular">Regular</option>
+          <option value="narrow">Narrow</option>
+          <option value="narrowitalic">Narrow Italic</option>
+          <option value="narrowbolditalic">Narrow Bold Italic</option>
+          <option value="italic">Italic</option>
+          <option value="bold">Bold</option>
+          <option value="bolditalic">Bold Italic</option>
+          <option value="black">Black</option>
+        </select>
+        <div>
+          <select name="fontsize" id="fontsize">
+            <option value="fontsize8">8</option>
+            <option value="fontsize9">9</option>
+            <option value="fontsize10">10</option>
+            <option value="fontsize11">11</option>
+            <option value="fontsize12">12</option>
+            <option value="fontsize14">14</option>
+            <option value="fontsize16">16</option>
+            <option value="fontsize18">18</option>
+          </select>
+          <i class="fas fa-align-left"></i>
+          <i class="fas fa-align-justify"></i>
+          <i class="fas fa-align-right"></i>
+          <i class="fas fa-text-height"></i>
+          <i class="fas fa-text-width"></i>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="Color" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times;</span>
+
+
+  </div>
+
+  <div id="Layout" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times;</span>
+    <div class="selectbox">
+    <h3>Layout</h3>
+    <div class="templates">
+      <h4>Template 1</h4>
+      <img src="img/template2.png" alt="Et billede af en template">
+      <br>
+      <h4>Template 2</h4>
+      <img src="img/template1.png" alt="Et billede af en template">
+      <br>
+      <h4>Template 3</h4>
+      <img src="img/template.png" alt="Et billede af en template">
+      <br>
+      <h4>Template 4</h4>
+      <img src="img/template3.png" alt="Et billede af en template">
+    </div>
+    </div>
+  </div>
+  <div id="Data" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times;</span>
+    <div class="selectbox">
+      <h3>Dataform</h3>
+      <h4>Production line</h4>
+      <form>
+        <select name="productionline" id="productionline">
+          <option value="productionlinea">Production line A</option>
+          <option value="productionlineb">Production line B</option>
+          <option value="productionlinec">Production line C</option>
+        </select>
+      </form>
+  </div>
+    <div class="selectbox">
+      <h4>Box 1</h4>
+      <form>
+        <label>Data / Content</label>
+          <br>
+        <select name="data">
+          <option value="stoptime">Stop time</option>
+          <option value="unitproduced">Unit produced</option>
+          <option value="runtime">Run time</option>
+        </select>
+          <br>
+        <label>Charts</label>
+          <br>
+        <select name="charts">
+          <option value="barchart">Bar chart</option>
+          <option value="linechart">Line chart</option>
+          <option value="pie">Pie</option>
+        </select>
+          <br>
+        <label>Date & time</label>
+          <br>
+        <select name="date">
+          <option value="perminute">Per minute</option>
+          <option value="perhour">Per hour</option>
+          <option value="day">Day</option>
+          <option value="week">Week</option>
+          <option value="month">Month</option>
+        </select>
+      </form>
+    </div>
+    <div class="selectbox">
+      <h4>Box 2</h4>
+      <form>
+        <label>Data / Content</label>
+          <br>
+        <select name="data">
+          <option value="stoptime">Stop time</option>
+          <option value="unitproduced">Unit produced</option>
+          <option value="runtime">Run time</option>
+        </select>
+          <br>
+        <label>Charts</label>
+          <br>
+        <select name="charts">
+          <option value="barchart">Bar chart</option>
+          <option value="linechart">Line chart</option>
+          <option value="pie">Pie</option>
+        </select>
+          <br>
+        <label>Date & time</label>
+          <br>
+        <select name="date">
+          <option value="perminute">Per minute</option>
+          <option value="perhour">Per hour</option>
+          <option value="day">Day</option>
+          <option value="week">Week</option>
+          <option value="month">Month</option>
+        </select>
+      </form>
+    </div>
+    <div class="selectbox">
+      <h4>Box 3</h4>
+      <form>
+        <label>Data / Content</label>
+          <br>
+        <select name="data">
+          <option value="stoptime">Stop time</option>
+          <option value="unitproduced">Unit produced</option>
+          <option value="runtime">Run time</option>
+        </select>
+          <br>
+        <label>Charts</label>
+          <br>
+        <select name="charts">
+          <option value="barchart">Bar chart</option>
+          <option value="linechart">Line chart</option>
+          <option value="pie">Pie</option>
+          <option value="landscapepillar">Landscape pillar</option>
+          <option value="radar">Radar</option>
+          <option value="histogram">Histogram</option>
+          <option value="waterfall">Waterfall</option>
+          <option value="funnel">Funnel</option>
+        </select>
+          <br>
+        <label>Date & time</label>
+          <br>
+        <select name="date">
+          <option value="perminute">Per minute</option>
+          <option value="perhour">Per hour</option>
+          <option value="day">Day</option>
+          <option value="week">Week</option>
+          <option value="month">Month</option>
+        </select>
+      </form>
+    </div>
+    <div class="selectbox">
+      <h4>Box 4</h4>
+      <form>
+        <label>Data / Content</label>
+          <br>
+        <select name="data">
+          <option value="stoptime">Stop time</option>
+          <option value="unitproduced">Unit produced</option>
+          <option value="runtime">Run time</option>
+        </select>
+          <br>
+        <label>Charts</label>
+          <br>
+        <select name="charts">
+          <option value="barchart">Bar chart</option>
+          <option value="linechart">Line chart</option>
+          <option value="pie">Pie</option>
+          <option value="landscapepillar">Landscape pillar</option>
+          <option value="radar">Radar</option>
+          <option value="histogram">Histogram</option>
+          <option value="waterfall">Waterfall</option>
+          <option value="funnel">Funnel</option>
+        </select>
+          <br>
+        <label>Date & time</label>
+          <br>
+        <select name="date">
+          <option value="perminute">Per minute</option>
+          <option value="perhour">Per hour</option>
+          <option value="day">Day</option>
+          <option value="week">Week</option>
+          <option value="month">Month</option>
+        </select>
+      </form>
+    </div>
+  </div>
+  <div class="genvejsikonafstand">
+    <div class="genvejsikon">
+      <i class="fa fa-save fa-sm"></i>
+    </div>
+    <br>
+    <div class="genvejsikon">
+      <i class="fa fa-print fa-sm"></i>
+    </div>
+    <div class="genvejsikon">
+      <i class="fa fa-file-pdf fa-sm"></i>
+    </div>
+    <div class="genvejsikon">
+      <i class="fa fa-sync-alt fa-sm"></i>
+    </div>
+    <div class="genvejsikon">
+      <i class="fa fa-share fa-sm"></i>
+    </div>
+  </div>
+    <home-page size="A4"><img src="img/a4page3.png" alt="Et billede af A4template"></home-page>
+</body>
+</html>
