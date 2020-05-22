@@ -468,8 +468,8 @@ tr:hover {
   font-size: 20px;
 }
 
-form i{
-  width: 25%;
+.selectbox i{
+  width: 12.5%;
   margin-bottom: 20px;
   font-size: 20px;
 }
