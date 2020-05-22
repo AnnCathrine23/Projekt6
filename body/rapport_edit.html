@@ -9,41 +9,41 @@
     <title>Trendlog</title>
     <script src="style.js" defer></script>
 </head>
-<header>
-  <nav>
-    <div class="topnav" id="myTopnav">
-      <div class="left">
-        <img src="img/trendlog-logo.png" alt="Trendlog logo">
-      </div>
-      <a class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-      <a class="show"></a>
-      <a href="#home"><i class="fa fa-home"></i></a>
-      <a class="#trendboards">Trendboards</a>
-      <a href="index.html" class="active">Reports</a>
-      <a href="#views">Views</a>
-      <a href="#feeds">Feeds</a>
-      <a href="#settings">Settings</a>
-      <a href="#share">Share</a>
-      <a class="show">Profil</a>
-      <a class="show">Log af</a>
-      <div class="right">
-        <div class="dropdown">
-          <button class="dropbtn">
-            Mads Hansen
-            <i class="fas fa-user-alt"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Min profil</a>
-            <a href="#">Log af</a>
+<body>
+  <header>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <div class="left">
+          <img src="img/trendlog-logo.png" alt="Trendlog logo">
+        </div>
+        <a class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a class="show"></a>
+        <a href="#home"><i class="fa fa-home"></i></a>
+        <a class="#trendboards">Trendboards</a>
+        <a href="index.html" class="active">Reports</a>
+        <a href="#views">Views</a>
+        <a href="#feeds">Feeds</a>
+        <a href="#settings">Settings</a>
+        <a href="#share">Share</a>
+        <a class="show">Profil</a>
+        <a class="show">Log af</a>
+        <div class="right">
+          <div class="dropdown">
+            <button class="dropbtn">
+              Mads Hansen
+              <i class="fas fa-user-alt"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Min profil</a>
+              <a href="#">Log af</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </nav>
-</header>
-<body>
+    </nav>
+  </header>
   <div class="tab">
     <button class="tablinks" onclick="openTab(event, 'Text')" id="defaultOpen">Text editor</button>
     <button class="tablinks" onclick="openTab(event, 'Color')">Color scheme</button>
@@ -51,7 +51,7 @@
     <button class="tablinks" onclick="openTab(event, 'Data')">Dataform</button>
   </div>
   <div id="Text" class="tabcontent">
-    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times;</span>
     <div class="selectbox">
       <h3>Text editor</h3>
       <form>
@@ -92,13 +92,13 @@
     </div>
   </div>
   <div id="Color" class="tabcontent">
-    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times;</span>
     <h3>Color</h3>
     <p>Paris is the capital of France.</p>
   </div>
 
   <div id="Layout" class="tabcontent">
-    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times;</span>
     <div class="selectbox">
     <h3>Layout</h3>
     <div class="templates">
@@ -117,7 +117,7 @@
     </div>
   </div>
   <div id="Data" class="tabcontent">
-    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times;</span>
     <div class="selectbox">
       <h3>Dataform</h3>
       <h4>Production line</h4>
@@ -127,8 +127,8 @@
           <option value="productionlineb">Production line B</option>
           <option value="productionlinec">Production line C</option>
         </select>
-          <br>
     </div>
+  </form>
     <div class="selectbox">
       <h4>Box 1</h4>
       <form>
