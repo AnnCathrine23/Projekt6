@@ -191,22 +191,30 @@ padding: 14px 0 0 0;
   // ###########################################*/
 
   .rows-section{
+      border-collapse: collapse;
       width: 100%;
+      style: overflow-x:auto;
+      font-size: 25px;
   }
 
   .section-header, .row {
     display: flex;
     box-shadow: 0px 8px 20px 4px rgba(0,0,0,0.12);
     background-color: white;
+    font-weight: bold;
+    padding: 8px;
   }
 
   .section-header {
     height: 60px;
+    padding-bottom: 10px
+    border-bottom: 10px
   }
 
   .header-small, .row-small {
     flex: 2;
-    padding-left: 8px;
+    padding-left: 4px;
+    padding-top: 10;
   }
 
   .header-medium, .row-medium {
