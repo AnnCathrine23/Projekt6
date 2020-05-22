@@ -635,6 +635,13 @@ home-page[size="A4"] img {
     margin-left: 55%;
   }}
 
+  @media screen and (max-width: 1645px) and (min-width: 1476px){
+    home-page[size="A4"] {
+    width: 15.75cm;
+    height: 22.275cm;
+    margin-left: 55%;
+  }}
+
   @media screen and (max-width: 600px) {
     .tab{
       display: none;
