@@ -544,24 +544,6 @@ home-page[size="A4"] img {
   height: 100%;
 }
 
-/* color scheme */
-* {
-  box-sizing: border-box;
-}
-
-.color-column {
-  float: left;
-  width: 2%;
-  padding: 10px;
-  border: solid 0.5px #2C3E51;
-}
-
-.color-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 /* media til header */
 
