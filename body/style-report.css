@@ -1,0 +1,65 @@
+.box-template {
+  background-color: #2C3E51;
+  width: 50%;
+  height: 70%;
+  padding: 1.5% 5%;
+  margin: auto;
+  color: white;
+}
+
+.box-template h1{
+  text-align: center;
+}
+
+
+img{
+  margin: 10px;
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  cursor: pointer;
+  transition: transform .2s;
+}
+img:hover{
+  box-shadow: 2px;
+  transform: scale(1.1);
+}
+
+
+.imgContainer #myBtn1{
+  cursor: pointer;
+  text-align:center;
+}
+
+#myBtn1 {
+  display:inline-block;
+  padding:1em 1em;
+  border:0.1em solid green;
+  margin:13px 0 0 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: green;
+  position: relative;
+  cursor: pointer;
+}
+
+#myBtn1:hover{
+  color:#000000;
+  background-color: white;
+  }
+
+  @media all and (max-width:30em){
+   #myBtn{
+  display:block;
+  margin:0.4em auto;
+   }
+  }
+
+  
