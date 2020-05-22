@@ -602,17 +602,9 @@ home-page[size="A4"] img {
 }
 
   /* Media til ikoner genvej */
-  @media only screen and (max-width: 1475px) {
+  @media only screen and (max-width: 1560px) {
 
-      .genvejsikon {
-        width: 100%
-      }
-
-      .genvejsikon {
-        display: block;
-      }
-
-      .genvejsikon {
+    .genvejsikon {
         display: none;
       }
   }
@@ -626,21 +618,36 @@ home-page[size="A4"] img {
     margin-right: 5%;
     width: 90%;
     height: 90%;
-  }}
+  }
+}
+
 
   @media screen and (max-width: 1475px) and (min-width: 601px){
     home-page[size="A4"] {
     width: 10.5cm;
     height: 14.85cm;
     margin-left: 55%;
-  }}
+  }
+}
+
+
 
   @media screen and (max-width: 1645px) and (min-width: 1476px){
     home-page[size="A4"] {
     width: 15.75cm;
     height: 22.275cm;
     margin-left: 55%;
-  }}
+  }
+}
+
+
+  @media screen and (max-width: 1645px) and (min-width: 1500px){
+    home-page img {
+    width: 15.75cm;
+    height: 22.275cm;
+    margin-left: 0%;
+  }
+}
 
   @media screen and (max-width: 600px) {
     .tab{
