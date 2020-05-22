@@ -539,6 +539,11 @@ page[size="A4"] {
   height: 29.7cm;
 }
 
+page[size="A4"] img {
+  width: 100%;
+  height: 100%;
+}
+
 /* media til header */
 
 @media screen and (max-width: 1120px) {
