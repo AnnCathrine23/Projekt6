@@ -648,7 +648,7 @@ home-page2 {
 }
 
 
-  @media screen and (max-width: 1475px) and (min-width: 601px){
+  @media screen and (max-width: 1400px) and (min-width: 601px){
     home-page[size="A4"] {
     width: 10.5cm;
     height: 14.85cm;
@@ -658,7 +658,7 @@ home-page2 {
 
 
 
-  @media screen and (max-width: 1645px) and (min-width: 1476px){
+  @media screen and (max-width: 1645px) and (min-width: 1401px){
     home-page[size="A4"] {
     width: 15.75cm;
     height: 22.275cm;
