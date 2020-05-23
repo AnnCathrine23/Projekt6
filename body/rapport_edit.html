@@ -286,28 +286,24 @@
       <form>
         <label>Data / Content</label>
           <br>
-        <select name="data">
-          <option value="stoptime">Stop time</option>
+        <select name="data" onchange="location = this. value;">
+          <option value="report_pages/stopbarday.html">Stop time</option>
           <option value="unitproduced">Unit produced</option>
-          <option value="runtime">Run time</option>
         </select>
           <br>
         <label>Charts</label>
           <br>
-        <select name="charts">
-          <option value="barchart">Bar chart</option>
+        <select name="charts" onchange="location = this. value;">
+          <option value="report_pages/stopbarday.html">Bar chart</option>
           <option value="linechart">Line chart</option>
-          <option value="pie">Pie</option>
         </select>
           <br>
         <label>Date & time</label>
           <br>
-        <select name="date">
-          <option value="perminute">Per minute</option>
-          <option value="perhour">Per hour</option>
-          <option value="day">Day</option>
-          <option value="week">Week</option>
-          <option value="month">Month</option>
+        <select name="date" onchange="location = this. value;">
+          <option value="report_pages/stopbarday.html">Day</option>
+          <option value="report_pages/stopbarweek.html">Week</option>
+          <option value="report_pages/stopbarmonth.html">Month</option>
         </select>
       </form>
     </div>
@@ -430,6 +426,6 @@
       <i class="fa fa-share fa-sm"></i>
     </div>
   </div>
-    <home-page size="A4"><img src="img/a4page3.png" alt="Et billede af A4template"></home-page>
+    <home-page size="A4"><img src="report_pages/report_img/stopperday_barchart.png" alt="Et billede af A4template"></home-page>
 </body>
 </html>
