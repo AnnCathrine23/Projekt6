@@ -134,28 +134,24 @@
       <form>
         <label>Data / Content</label>
           <br>
-        <select name="data">
-          <option value="stoptime">Stop time</option>
-          <option value="unitproduced">Unit produced</option>
-          <option value="runtime">Run time</option>
+        <select name="data" onchange="location = this. value;">
+          <option value="unitlineday.html">Unit produced</option>
+          <option value="stoplineday.html">Stop time</option>
         </select>
           <br>
         <label>Charts</label>
           <br>
-        <select name="charts">
-          <option value="barchart">Bar chart</option>
-          <option value="linechart">Line chart</option>
-          <option value="pie">Pie</option>
+        <select name="charts" onchange="location = this. value;">
+          <option value="unitlineday.html">Line chart</option>
+          <option value="unitbarday.html">Bar chart</option>
         </select>
           <br>
         <label>Date & time</label>
           <br>
-        <select name="date">
-          <option value="perminute">Per minute</option>
-          <option value="perhour">Per hour</option>
-          <option value="day">Day</option>
-          <option value="week">Week</option>
-          <option value="month">Month</option>
+        <select name="date" onchange="location = this. value;">
+          <option value="unitlineday.html">Day</option>
+          <option value="unitlineweek.html">Week</option>
+          <option value="unitlinemonth.html">Month</option>
         </select>
       </form>
     </div>
