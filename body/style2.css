@@ -680,10 +680,24 @@ home-page2 {
       display: none;
     }
   }
-  @media screen and (max-width: 824px) {
+  @media screen and (max-width: 976px) {
     .tabcontent {
       position: absolute;
       top: -9999px;
       left: -9999px;
+    }
+  }
+
+  @media screen and (max-width: 1540px) {
+    .tabcontent {
+      width: 250px;
+      height: 200%;
+    }
+  }
+
+  @media screen and (max-width: 1540px) {
+    .tab{
+      width: 250px;
+      height: 200%;
     }
   }
