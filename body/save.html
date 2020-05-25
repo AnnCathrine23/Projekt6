@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="shortcut icon" type="image/icon" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/2ba32b1de7.js" crossorigin="anonymous"></script>
+    <title>Trendlog</title>
+    <script src="style.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <div class="left">
+          <img src="img/trendlog-logo.png" alt="Trendlog logo">
+        </div>
+        <a class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a class="show"></a>
+        <a href="#home"><i class="fa fa-home"></i></a>
+        <a class="#trendboards" onClick="alert('This function does not work in this prototype.')">Trendboards</a>
+        <a href="#reports" class="active">Reports</a>
+        <a href="#views" onClick="alert('This function does not work in this prototype.')">Views</a>
+        <a href="#feeds" onClick="alert('This function does not work in this prototype.')">Feeds</a>
+        <a href="#settings" onClick="alert('This function does not work in this prototype.')">Settings</a>
+        <a href="#share" onClick="alert('This function does not work in this prototype.')">Share</a>
+        <a class="show" onClick="alert('This function does not work in this prototype.')">Profil</a>
+        <a class="show" onClick="alert('This function does not work in this prototype.')">Log af</a>
+        <div class="right">
+          <div class="dropdown">
+            <button class="dropbtn">
+              Mads Hansen
+              <i class="fas fa-user-alt"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Min profil</a>
+              <a href="#">Log af</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="genvejsikonafstand">
+    <div class="genvejsikon">
+      <i class="fa fa-save fa-sm" onclick="alert('Your document has been saved.')"></i>
+    </div>
+    <br>
+    <div class="genvejsikon">
+      <i class="fa fa-print fa-sm" onClick="alert('Document was sent to the printer')"></i>
+    </div>
+    <div class="genvejsikon">
+      <i class="fa fa-file-pdf fa-sm"></i>
+    </div>
+    <div class="genvejsikon">
+      <i class="fa fa-sync-alt fa-sm"></i>
+    </div>
+    <div class="genvejsikon">
+      <i class="fa fa-share fa-sm"></i>
+    </div>
+  </div>
+  <div class="savepopup">
+    <h2>Confirm</h2>
+    <p>You are about to leave the editing page, please be sure to save your changes before exiting</p>
+    <a href="javascript:history.back()" class="button_modal">Stay</a>
+    <a href="index.html" class="button_modal2">Exit</a>
+  </div>
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'Text')" id="defaultOpen">Text editor</button>
+      <button class="tablinks" onclick="openTab(event, 'Color')">Color scheme</button>
+      <button class="tablinks" onclick="openTab(event, 'Layout')">Layout</button>
+      <button class="tablinks" onclick="openTab(event, 'Data')">Dataform</button>
+      <button class="tablinks" onclick="alert('Your document has been saved.')">Save</button>
+    </div>
+</body>
+</html>
