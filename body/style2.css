@@ -736,7 +736,13 @@ home-page2 {
   display: block;
   text-align: left;
 }
-
+.dropbtn2 {
+border: 0;
+background: none;
+box-shadow: none;
+border-radius: 0px;
+font-size: 25px;
+}
 .dropdown2-content a:hover {
   background-color:#999999;
 }
