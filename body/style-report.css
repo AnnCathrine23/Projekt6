@@ -1,3 +1,7 @@
+body {
+  background-color: rgba(0,0,0,0.1);
+  font-family: arial;
+}
 .box-template {
   background-color: #2C3E51;
   width: 50%;
@@ -39,7 +43,7 @@ img:hover{
   border-radius:0.12em;
   box-sizing: border-box;
   text-decoration:none;
-  font-family:'Roboto',sans-serif;
+  font-family: arial;
   font-size: 14px;
   font-weight: bold;
   color: #ffffff;
@@ -50,9 +54,14 @@ img:hover{
   cursor: pointer;
 }
 
+#myBtn1 a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
 #myBtn1:hover{
   color:#000000;
-  background-color: white;
+  opacity: 75%;
   }
 
   @media all and (max-width:30em){
@@ -61,5 +70,3 @@ img:hover{
   margin:0.4em auto;
    }
   }
-
-  
