@@ -36,7 +36,7 @@ function myFunction2() {
      }
 
 // modals javascript
-     // Få modal / finder modal
+// Få modal / finder modal
 const modal = document.getElementById("myModal");
 
 // Får kanppen som åbner modal
@@ -62,8 +62,7 @@ window.onclick = function(event) {
   }
 }
 
-//tabs - sidebar
-
+//tabs - sidebar = den viser at den er aktiv
   function openTab(evt, styleTab) {
     const tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
