@@ -181,7 +181,7 @@ padding: 14px 0 0 0;
 table {
   border-collapse: collapse;
   width: 100%;
-  style: overflow-x:auto;
+  overflow-x: auto;
   font-size: 25px;
 }
 
@@ -206,7 +206,7 @@ tr:hover {
   #myBtn {
     display:inline-block;
     padding:1em 1em;
-    border:0.1em solid green;
+    border:none;
     margin:13px 0 0 0;
     border-radius:0.12em;
     box-sizing: border-box;
@@ -226,11 +226,10 @@ tr:hover {
     opacity: 75%;
     }
 
-    @media all and (max-width:30em){
-     #myBtn{
+    @media all and (max-width:30em) {
+    #myBtn{
     display:block;
-    margin:0.4em auto;
-     }
+    margin:0.4em auto;}
     }
 
 /*media til tabellen*/
@@ -485,7 +484,6 @@ tr:hover {
 .genvejsikon {
   background-color: #ffffff;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  color: white;
   height: 70px;
   width: 70px;
   text-align: center;
@@ -716,7 +714,7 @@ home-page2 {
   overflow: hidden;
   border-collapse: collapse;
   width: 100%;
-  style: overflow-x:auto;
+  overflow-x: auto;
   font-size: 25px;
 }
 
@@ -762,7 +760,7 @@ font-size: 25px;
 table {
   border-collapse: collapse;
   width: 100%;
-  style: overflow-x:auto;
+  overflow-x: auto;
   font-size: 25px;
 }
 
