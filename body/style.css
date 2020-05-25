@@ -1,28 +1,28 @@
 html, body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10pt;
-    background-repeat: no-repeat;
-    background-color: #d3d3d3;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  background-repeat: no-repeat;
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
-.page-margin2{
+.page-margin2 {
   margin-left: 0px;
   margin-right: 62px;
 }
 
-.page-margin{
+.page-margin {
   margin-left: 60px;
   margin-right: 60px;
 }
 
 h1 {
-    float: left;
-    font-weight: bold;
-    font-size: 50px;
-    /*Normal pageheader = 18px*/
+  float: left;
+  font-weight: bold;
+  font-size: 50px;
+  /*Normal pageheader = 18px*/
 }
 
 .topnav {
@@ -51,11 +51,11 @@ h1 {
   color: white;
 }
 
-.topnav a img{
-max-height: 100%;
-margin: 0 auto;
-width: auto;
-padding: 14px 0 0 0;
+.topnav a img {
+  max-height: 100%;
+  margin: 0 auto;
+  width: auto;
+  padding: 14px 0 0 0;
 }
 
 .topnav .icon {
@@ -63,7 +63,10 @@ padding: 14px 0 0 0;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
   .topnav a.icon {
     float: left;
     display: block;
@@ -71,12 +74,16 @@ padding: 14px 0 0 0;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     left: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -84,11 +91,11 @@ padding: 14px 0 0 0;
   }
 }
 
-.left{
+.left {
   float: left;
 }
 
-.left img{
+.left img {
   width: 70%;
   height: 70%;
   display: block;
@@ -97,38 +104,46 @@ padding: 14px 0 0 0;
   margin-top: 10px;
 }
 
-.right{
+.right {
   float: right;
 }
 
-.top{
+.top {
   margin-top: 20px;
 }
 
-.show{
+.show {
   height: 20px;
   text-decoration: none;
 }
 
 @media screen and (min-width: 600px) {
-  a.show { display: none; }   /* hide it elsewhere */
+  a.show {
+    display: none;
+  }
+
+  /* hide it elsewhere */
 }
 
 #myInput {
-    width: 100%; /* Full-width */
-    position: relative;
-    font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 40px; /* Add some padding */
-    border: 1px solid #ddd; /* Add a grey border */
-    margin-bottom: 12px; /* Add some space below the input */
-    background-image: url('img/search.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    background-size: 1.2em;
-  }
+  width: 100%;
+  /* Full-width */
+  position: relative;
+  font-size: 16px;
+  /* Increase font-size */
+  padding: 12px 20px 12px 40px;
+  /* Add some padding */
+  border: 1px solid #ddd;
+  /* Add a grey border */
+  margin-bottom: 12px;
+  /* Add some space below the input */
+  background-image: url('img/search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 1.2em;
+}
 
-
-.border{
+.border {
   border: 3px solid #000000;
 }
 
@@ -151,7 +166,7 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-  background-color:#999999;
+  background-color: #999999;
 }
 
 #myTable a {
@@ -173,59 +188,61 @@ tr:hover {
   margin-top: 20px
 }
 
-a.button1{
-    display:inline-block;
-    padding:0.35em 1.2em;
-    border:0.1em solid green;
-    margin:0 0.3em 0.3em 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight: bold;
-    color: white;
-    text-align:center;
-    transition: all 0.2s;
-    background-color: green;
-    position: relative;
-    font-size: 18px;
-    }
+a.button1 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid green;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: green;
+  position: relative;
+  font-size: 18px;
+}
 
-    a.button1:hover{
-    color:#000000;
-    background-color: white;
-    }
-    @media all and (max-width:30em){
-     a.button1{
-    display:block;
-    margin:0.4em auto;
-     }
-    }
+a.button1:hover {
+  color: #000000;
+  background-color: white;
+}
 
-    a.button2 {
-      display: inline-block;
-      padding: 0.3em 1.2em;
-      margin: 0 0.3em 0.3em 0;
-      border-radius: 2em;
-      box-sizing: border-box;
-      text-decoration: none;
-      font-family: 'Roboto', sans-serif;
-      font-weight: bold;
-      color: white;
-      background-color: #4ee44e;
-      text-align: center;
-      font-size: 15px;
-    }
+@media all and (max-width:30em) {
+  a.button1 {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
 
-    @media screen and (min-width: 600px) {
-      a.show { display: none; }   /* hide it elsewhere */
-    }
+a.button2 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #4ee44e;
+  text-align: center;
+  font-size: 15px;
+}
 
+@media screen and (min-width: 600px) {
+  a.show {
+    display: none;
+  }
+
+  /* hide it elsewhere */
+}
 
 /*media til tabel*/
-
 @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
-
   table {
     width: 100%
   }
@@ -257,11 +274,12 @@ a.button1{
     top: -99999px;
     left: -9999px;
   }
-.page-margin h1 {
-  position: absolute;
-  top: -99999px;
-  left: -9999px;
-}
+
+  .page-margin h1 {
+    position: absolute;
+    top: -99999px;
+    left: -9999px;
+  }
 }
 
 #myTable a:hover {
@@ -289,7 +307,7 @@ a.button1{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -311,5 +329,9 @@ a.button1{
 }
 
 @media screen and (max-width: 600px) {
-  div.dropdown { display: none; }  /* show it on small screens */
+  div.dropdown {
+    display: none;
+  }
+
+  /* show it on small screens */
 }

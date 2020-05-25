@@ -12,8 +12,7 @@ function myFunction() {
 const results = ["Day report A", "Day report B", "Day report C", "Day report D"];
 document.getElementById("result").innerHTML = results.length;
 
-//Søgebar
-function myFunction2() {
+//Søgebarfunction myFunction2() {
        // erklære variabler
        var input, filter, table, tr, td, i, txtValue;
        input = document.getElementById("myInput");

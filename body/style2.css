@@ -1,29 +1,29 @@
 /*Style for body + page-margin*/
 html, body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10pt;
-    background-repeat: no-repeat;
-    background-color: #d3d3d3;
-    width: 100%;
-    height: 100%;
-    margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  background-repeat: no-repeat;
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
-.page-margin2{
+.page-margin2 {
   margin-left: 0px;
   margin-right: 62px;
 }
 
-.page-margin{
+.page-margin {
   margin-left: 60px;
   margin-right: 60px;
 }
 
 h1 {
-    float: left;
-    font-weight: bold;
-    font-size: 50px;
-    /*Normal pageheader = 18px*/
+  float: left;
+  font-weight: bold;
+  font-size: 50px;
+  /*Normal pageheader = 18px*/
 }
 
 /*style for headern. Hvis noget skal rettes i header-navigationen, vil du finde det her*/
@@ -54,22 +54,22 @@ h1 {
   color: #ffffff;
 }
 
-.topnav a img{
-max-height: 100%;
-margin: 0 auto;
-width: auto;
-padding: 14px 0 0 0;
+.topnav a img {
+  max-height: 100%;
+  margin: 0 auto;
+  width: auto;
+  padding: 14px 0 0 0;
 }
 
 .topnav .icon {
   display: none;
 }
 
-.left{
+.left {
   float: left;
 }
 
-.left img{
+.left img {
   width: 70%;
   height: 70%;
   display: block;
@@ -78,19 +78,18 @@ padding: 14px 0 0 0;
   margin-top: 10px;
 }
 
-.right{
+.right {
   float: right;
 }
 
-.top{
+.top {
   margin-top: 20px;
 }
 
-.show{
+.show {
   height: 20px;
   text-decoration: none;
 }
-
 
 /* profil i headeren*/
 .dropdown {
@@ -115,7 +114,7 @@ padding: 14px 0 0 0;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -138,36 +137,32 @@ padding: 14px 0 0 0;
 }
 
 /* farven på ikonnet i profilen */
-
-.fa-user-alt{
+.fa-user-alt {
   color: #39fe45;
 }
 
 .fa-edit {
   text-decoration: none;
   color: #000000;
-
 }
 
 /* searchbar style*/
-
 #myInput {
-    width: 100%;
-    position: relative;
-    font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
-    margin-bottom: 12px;
-    background-image: url('img/search.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    background-size: 1.2em;
-    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),0 6.7px 5.3px rgba(0, 0, 0, 0.048);
-  }
+  width: 100%;
+  position: relative;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  background-image: url('img/search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 1.2em;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048);
+}
 
 /*Tabellens style */
-
-.border{
+.border {
   border: 3px solid #000000;
 }
 
@@ -190,44 +185,42 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-  background-color:#999999;
+  background-color: #999999;
 }
-
 
 /* knappens stil */
 /*Add rapport knap*/
+#myBtn {
+  display: inline-block;
+  padding: 1em 1em;
+  border: none;
+  margin: 13px 0 0 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+  background-color: #4a9d4d;
+  position: relative;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  opacity: 75%;
+}
+
+@media all and (max-width:30em) {
   #myBtn {
-    display:inline-block;
-    padding:1em 1em;
-    border:none;
-    margin:13px 0 0 0;
-    border-radius:0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family: arial;
-    font-size: 14px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-    transition: all 0.2s;
-    background-color: #4a9d4d;
-    position: relative;
-    cursor: pointer;
+    display: block;
+    margin: 0.4em auto;
   }
-
-  #myBtn:hover{
-    opacity: 75%;
-    }
-
-    @media all and (max-width:30em) {
-    #myBtn{
-    display:block;
-    margin:0.4em auto;}
-    }
-
+}
 
 /*hover effekt på production på tabellen */
-
 #myTable a:hover {
   color: #4a9d4d;
 }
@@ -239,104 +232,106 @@ tr:hover {
 
 /* modal popop */
 .modal {
-    display: none; /* gør at det er gemt */
-    position: fixed; /* gør at den sidder fast */
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto; /* gør at man kan scrolle, hvis man skal */
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
-  }
-
-  .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 250px;
-  }
-
-  .modal-content p{
-      color: #000000;
-      text-align: center;
-      font-size: 18px;
-  }
-
-
-  /* lukke knap på modal*/
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-
-  .close:hover,
-  .close:focus {
-    color: #000000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-
-  /* knapper på add ned report + stil */
-    .button2 {
-      display: inline-block;
-      padding: 0.3em 1.2em;
-      margin: 0 0.3em 0.3em 0;
-      border-radius: 2em;
-      box-sizing: border-box;
-      text-decoration: none;
-      font-family: arial;
-      font-weight: bold;
-      color: #ffffff;
-      background-color: #4CAF50;
-      text-align: center;
-      font-size: 15px;
-    }
-
-    .button_modal {
-      display:inline-block;
-      padding: 10px 28px;
-      border: 0.1em solid #4CAF50;
-      border-radius: 0.12em;
-      box-sizing: border-box;
-      text-decoration:none;
-      font-family: arial;
-      font-size: 14px;
-      color: #ffffff;
-      text-align: center;
-      background-color: #4CAF50;
-      position: relative;
-      cursor: pointer;
-  }
-
-  .button_modal:hover {
-    color:#000000;
-    opacity: 0,5;
-  }
-
-  .button_modal2 {
-    display:inline-block;
-    padding: 10px 28px;
-    border: 0.1em solid #CD0000;
-    border-radius: 0.12em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family: arial;
-    font-size: 14px;
-    color: #ffffff;
-    text-align: center;
-    background-color: #CD0000;
-    position: relative;
-    cursor: pointer;
+  display: none;
+  /* gør at det er gemt */
+  position: fixed;
+  /* gør at den sidder fast */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  /* gør at man kan scrolle, hvis man skal */
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-  .button_modal2:hover {
-    color:#000000;
-    opacity: 0,5;
-  }
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 250px;
+}
+
+.modal-content p {
+  color: #000000;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* lukke knap på modal*/
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* knapper på add ned report + stil */
+.button2 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: arial;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4CAF50;
+  text-align: center;
+  font-size: 15px;
+}
+
+.button_modal {
+  display: inline-block;
+  padding: 10px 28px;
+  border: 0.1em solid #4CAF50;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #4CAF50;
+  position: relative;
+  cursor: pointer;
+}
+
+.button_modal:hover {
+  color: #000000;
+  opacity: 0, 5;
+}
+
+.button_modal2 {
+  display: inline-block;
+  padding: 10px 28px;
+  border: 0.1em solid #CD0000;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #CD0000;
+  position: relative;
+  cursor: pointer;
+}
+
+.button_modal2:hover {
+  color: #000000;
+  opacity: 0, 5;
+}
 
 .button_modal, .botton_modal2 {
   margin-right: 30px;
@@ -346,15 +341,15 @@ tr:hover {
 
 /* Stilen på sidebar*/
 .tab {
-    position: absolute;
-    width: 250px;
-    height: 130%;
-    top:0;
-    left: 0;
-    bottom: 0;
-    background: #222;
-    padding-top: 1px;
-    margin-top: 56px;
+  position: absolute;
+  width: 250px;
+  height: 130%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #222;
+  padding-top: 1px;
+  margin-top: 56px;
 }
 
 /* Knappernes stil i sidebar */
@@ -380,8 +375,8 @@ tr:hover {
 }
 
 .tab button.active {
-    background-color: #2C3E50;
-  }
+  background-color: #2C3E50;
+}
 
 /* Stilen på tab content */
 .tabcontent {
@@ -397,24 +392,23 @@ tr:hover {
 }
 
 /* Muligheder under rapport edit- Design valgmuligheder */
-
-.selectbox{
+.selectbox {
   margin-left: 4px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(200, 200, 200);
 }
 
-.selectbox select{
+.selectbox select {
   width: 90%;
   margin-bottom: 10px;
   font-size: 20px;
 }
 
-.selectbox label{
+.selectbox label {
   font-size: 20px;
 }
 
-.selectbox h3{
+.selectbox h3 {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 5px;
@@ -423,7 +417,7 @@ tr:hover {
   border-bottom: 1px solid rgb(200, 200, 200);
 }
 
-.selectbox h4{
+.selectbox h4 {
   font-size: 22px;
   font-weight: bold;
   text-align: left;
@@ -431,22 +425,22 @@ tr:hover {
   margin-bottom: 5px;
 }
 
-.selectbox div select{
+.selectbox div select {
   width: 25%;
   margin-bottom: 20px;
   font-size: 20px;
 }
 
-.selectbox i{
+.selectbox i {
   width: 12.5%;
   margin-bottom: 20px;
   font-size: 20px;
 }
-/* genvejs ikoner i siden */
 
+/* genvejs ikoner i siden */
 .genvejsikon {
   background-color: #ffffff;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   height: 70px;
   width: 70px;
   text-align: center;
@@ -458,7 +452,7 @@ tr:hover {
   border-radius: 12px;
 }
 
-.genvejsikon i{
+.genvejsikon i {
   color: #000000;
   padding-top: 20%;
 }
@@ -470,21 +464,22 @@ tr:hover {
   font-size: 28px;
 }
 
-.topright:hover {color: grey;}
-
-.genvejsikonafstand{
-position: relative;
-float: right;
-width: 100px;
-top: 18%;
+.topright:hover {
+  color: grey;
 }
 
-.genvejsikonafstand div{
+.genvejsikonafstand {
+  position: relative;
+  float: right;
+  width: 100px;
+  top: 18%;
+}
+
+.genvejsikonafstand div {
   margin: 10%;
 }
 
 .templates {
-
   margin-left: 70px;
 }
 
@@ -492,19 +487,17 @@ top: 18%;
   margin-right: 0px;
 }
 
-
-
 /* page A4 */
-
 home-page {
   background: #ffffff;
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
   margin-top: 60px;
   margin-left: 45%;
 }
+
 home-page[size="A4"] {
   width: 21cm;
   height: 29.7cm;
@@ -515,28 +508,26 @@ home-page[size="A4"] img {
   height: 100%;
 }
 
-
 home-page2 {
   background: #ffffff;
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
   margin-top: 60px;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
-  }
-  home-page2[size="A4"] {
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+home-page2[size="A4"] {
   width: 21cm;
   height: 29.7cm;
-  }
+}
 
-  home-page2[size="A4"] img {
+home-page2[size="A4"] img {
   width: 100%;
   height: 100%;
-  }
-
+}
 
 /* color scheme*/
-
 .color-column {
   float: left;
   width: 2%;
@@ -550,9 +541,7 @@ home-page2 {
   clear: both;
 }
 
-
 /*Dropdown på forsiden, med de tre prikker. Muligheder med at rediere og slette ens rapport*/
-
 .dropdown2 {
   float: left;
   overflow: hidden;
@@ -573,7 +562,7 @@ home-page2 {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -586,15 +575,17 @@ home-page2 {
   text-align: left;
   font-size: 20px;
 }
+
 .dropbtn2 {
-border: 0;
-background: none;
-box-shadow: none;
-border-radius: 0px;
-font-size: 25px;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 25px;
 }
+
 .dropdown2-content a:hover {
-  background-color:#999999;
+  background-color: #999999;
 }
 
 .dropdown2:hover .dropdown2-content {
@@ -616,10 +607,9 @@ th, td {
 }
 
 /* Popup alert til når man ikke har gemt sine ændringer på sin rapport */
-
 .savepopup {
   background-color: #ffffff;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   color: #000000;
   height: 300px;
   width: 600px;
@@ -633,12 +623,12 @@ th, td {
   opacity: 1;
 }
 
-.savepopup p{
+.savepopup p {
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.savepopup h2{
+.savepopup h2 {
   margin-left: 10%;
   margin-right: 10%;
   font-size: 35px;
@@ -647,12 +637,12 @@ th, td {
 }
 
 /* MEDIA QURRIES */
-
-
 /* media til header */
-
 @media screen and (max-width: 1120px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -660,12 +650,16 @@ th, td {
 }
 
 @media screen and (max-width: 1120px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -674,12 +668,16 @@ th, td {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -689,28 +687,29 @@ th, td {
 
 /* media til top nav */
 @media screen and (min-width: 600px) {
- a.show { display: none; }   /* media til top nav */
+  a.show {
+    display: none;
+  }
+
+  /* media til top nav */
 }
 
-  /* Media til ikoner genvej */
-  @media only screen and (max-width: 1561px) and (min-width: 1400px) {
-
-    .genvejsikon {
-        display: none;
-      }
+/* Media til ikoner genvej */
+@media only screen and (max-width: 1561px) and (min-width: 1400px) {
+  .genvejsikon {
+    display: none;
   }
+}
 
-  @media only screen and (max-width: 1125px){
-
-    .genvejsikon {
-        display: none;
-      }
+@media only screen and (max-width: 1125px) {
+  .genvejsikon {
+    display: none;
   }
+}
 
 /* media til A4 page */
-
-  @media screen and (max-width: 600px) {
-    home-page[size="A4"] {
+@media screen and (max-width: 600px) {
+  home-page[size="A4"] {
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;
@@ -718,25 +717,24 @@ th, td {
   }
 }
 
-
-  @media screen and (max-width: 1400px) and (min-width: 601px){
-    home-page[size="A4"] {
+@media screen and (max-width: 1400px) and (min-width: 601px) {
+  home-page[size="A4"] {
     width: 10.5cm;
     height: 14.85cm;
     margin-left: 55%;
   }
 }
 
-  @media screen and (max-width: 1645px) and (min-width: 1401px){
-    home-page[size="A4"] {
+@media screen and (max-width: 1645px) and (min-width: 1401px) {
+  home-page[size="A4"] {
     width: 15.75cm;
     height: 22.275cm;
     margin-left: 55%;
   }
 }
 
-  @media screen and (max-width: 1645px) and (min-width: 1500px){
-    home-page img {
+@media screen and (max-width: 1645px) and (min-width: 1500px) {
+  home-page img {
     width: 15.75cm;
     height: 22.275cm;
     margin-left: 0%;
@@ -744,82 +742,88 @@ th, td {
 }
 
 /* media til sidebar */
-
-  @media screen and (max-width: 600px) {
-    .tab{
-      display: none;
-    }
+@media screen and (max-width: 600px) {
+  .tab {
+    display: none;
   }
-  @media screen and (max-width: 976px) {
-    .tabcontent {
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-    }
+}
+
+@media screen and (max-width: 976px) {
+  .tabcontent {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+}
+
+@media screen and (max-width: 1540px) {
+  .tabcontent {
+    width: 250px;
+    height: 200%;
+  }
+}
+
+@media screen and (max-width: 1540px) {
+  .tab {
+    width: 250px;
+    height: 200%;
+  }
+}
+
+/* media til dropdown ved profilen i topnav */
+@media screen and (max-width: 600px) {
+  div.dropdown {
+    display: none;
   }
 
-  @media screen and (max-width: 1540px) {
-    .tabcontent {
-      width: 250px;
-      height: 200%;
-    }
+  /* show it on small screens */
+}
+
+/*media til tabellen*/
+@media only screen and (max-width: 760px) {
+  table {
+    width: 100%
   }
 
-  @media screen and (max-width: 1540px) {
-    .tab{
-      width: 250px;
-      height: 200%;
-    }
-  }
-  /* media til dropdown ved profilen i topnav */
-  @media screen and (max-width: 600px) {
-    div.dropdown { display: none; }  /* show it on small screens */
+  table, tbody, th, td, tr {
+    display: block;
   }
 
-  /*media til tabellen*/
+  thead tr, th, p {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
 
-  @media only screen and (max-width: 760px){
+  tr {
+    border: 3px solid #ccc;
+  }
 
-    table {
-      width: 100%
-    }
+  td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    font-weight: bold;
+    text-align: left;
+  }
 
-    table, tbody, th, td, tr {
-      display: block;
-    }
+  #myBtn {
+    position: absolute;
+    top: -99999px;
+    left: -9999px;
+  }
 
-    thead tr, th, p {
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-    }
-
-    tr {
-      border: 3px solid #ccc;
-    }
-
-    td {
-      border: none;
-      border-bottom: 1px solid #eee;
-      position: relative;
-      font-weight: bold;
-      text-align: left;
-    }
-
-    #myBtn{
-      position: absolute;
-      top: -99999px;
-      left: -9999px;
-    }
   .page-margin h1 {
     position: absolute;
     top: -99999px;
     left: -9999px;
-    }
   }
+}
+
 /* media til add new report knap*/
-  @media all and (max-width:30em) {
-    #myBtn{
-    display:block;
-    margin:0.4em auto;}
-    }
+@media all and (max-width:30em) {
+  #myBtn {
+    display: block;
+    margin: 0.4em auto;
+  }
+}
