@@ -76,3 +76,9 @@ window.onclick = function(event) {
     document.getElementById(styleTab).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+  // When the user clicks on div, open the popup
+  function myPopupFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
