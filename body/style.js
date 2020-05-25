@@ -1,3 +1,5 @@
+// Top nav - header
+
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -12,14 +14,14 @@ const results = ["Production A", "Production B", "Production C", "Production D"]
 document.getElementById("result").innerHTML = results.length;
 
 function myFunction2() {
-       // Declare variables
+       // erklære variabler
        var input, filter, table, tr, td, i, txtValue;
        input = document.getElementById("myInput");
        filter = input.value.toUpperCase();
        table = document.getElementById("myTable");
        tr = table.getElementsByTagName("tr");
 
-       // Loop through all table rows, and hide those who don't match the search query
+       // Loop alle tabel rækker, og gemmer dem som ikke matcher forespørgsel
        for (i = 0; i < tr.length; i++) {
          td = tr[i].getElementsByTagName("td")[0];
          if (td) {
@@ -34,33 +36,33 @@ function myFunction2() {
      }
 
 // modals javascript
-     // Get the modal
+     // Få modal
 const modal = document.getElementById("myModal");
 
-// Get the button that opens the modal
+// Får kanppen som åbner modal
 const btn = document.getElementById("myBtn");
 
-// Get the <span> element that closes the modal
+// Får <span> element som lukker modal
 const span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
+// når brugeren klikker på knappen, åben modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
+// Når bruger klikker på <span> (x), lukker modal
 span.onclick = function() {
   modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// Når brugeren klikker udenfor modalen, lukkes det
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 }
 
-//tabs
+//tabs - sidebar
 
   function openTab(evt, styleTab) {
     const tabcontent = document.getElementsByClassName("tabcontent");
