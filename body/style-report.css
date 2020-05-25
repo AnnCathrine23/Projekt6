@@ -29,6 +29,9 @@ img:hover{
   transform: scale(1.1);
 }
 
+.imgContainer p {
+  font-weight: bold;
+}
 
 .imgContainer #myBtn1{
   cursor: pointer;
