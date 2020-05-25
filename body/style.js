@@ -1,5 +1,4 @@
 // Top nav - header
-
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -9,10 +8,11 @@ function myFunction() {
   }
 }
 
-// der er en lille fejl på denne kode
-const results = ["Production A", "Production B", "Production C", "Production D"];
+// Viser antal rapporter, ud fra hvad der er skrevet
+const results = ["Day report A", "Day report B", "Day report C", "Day report D"];
 document.getElementById("result").innerHTML = results.length;
 
+//Søgebar
 function myFunction2() {
        // erklære variabler
        var input, filter, table, tr, td, i, txtValue;
@@ -36,7 +36,7 @@ function myFunction2() {
      }
 
 // modals javascript
-     // Få modal
+     // Få modal / finder modal
 const modal = document.getElementById("myModal");
 
 // Får kanppen som åbner modal
