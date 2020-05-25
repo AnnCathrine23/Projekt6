@@ -25,7 +25,6 @@ img{
   transition: transform .2s;
 }
 img:hover{
-  box-shadow: 2px;
   transform: scale(1.1);
 }
 
@@ -40,14 +39,45 @@ img:hover{
   text-align:center;
   margin-top: 0;
   margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.imgContainer #Btn2{
+  cursor: pointer;
+  text-align:center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+.imgContainer #Btn3{
+  cursor: pointer;
+  text-align:center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+.imgContainer #Btn4{
+  cursor: pointer;
+  text-align:center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+.imgContainer #Btn5{
+  cursor: pointer;
+  text-align:center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 
 
-#Btn1 {
+#Btn1, #Btn2, #Btn3, #Btn4, #Btn5 {
   display:inline-block;
   padding:1em 1em;
-  border:0.1em solid green;
+  border:none;
+  margin:13px 0 0 0;
   border-radius:0.12em;
   box-sizing: border-box;
   text-decoration:none;
@@ -57,12 +87,12 @@ img:hover{
   color: #ffffff;
   text-align: center;
   transition: all 0.2s;
-  background-color: green;
+  background-color: #5CB85C;
   position: relative;
   cursor: pointer;
 }
 
-#Btn1 a{
+#Btn1, #Btn2 a{
   text-decoration: none;
   color: #ffffff;
 }
@@ -73,7 +103,7 @@ img:hover{
   }
 
   @media all and (max-width:30em){
-   #Btn{
+   #Btn1, #Btn2{
   display:block;
   margin:0.4em auto;
    }
