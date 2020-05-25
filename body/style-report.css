@@ -32,9 +32,10 @@ img:hover{
 .imgContainer p {
   font-weight: bold;
   margin-bottom: 0;
+  text-align: center;
 }
 
-.imgContainer #myBtn1{
+.imgContainer #Btn1{
   cursor: pointer;
   text-align:center;
   margin-top: 0;
@@ -43,7 +44,7 @@ img:hover{
 
 
 
-#myBtn1 {
+#Btn1 {
   display:inline-block;
   padding:1em 1em;
   border:0.1em solid green;
@@ -61,18 +62,18 @@ img:hover{
   cursor: pointer;
 }
 
-#myBtn1 a{
+#Btn1 a{
   text-decoration: none;
   color: #ffffff;
 }
 
-#myBtn1:hover{
+#Btn1:hover{
   color:#000000;
   opacity: 75%;
   }
 
   @media all and (max-width:30em){
-   #myBtn{
+   #Btn{
   display:block;
   margin:0.4em auto;
    }
