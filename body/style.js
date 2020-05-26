@@ -78,7 +78,19 @@ window.onclick = function(event) {
   }
 
   // When the user clicks on div, open the popup
-  function myPopupFunction() {
-    var popup = document.getElementById("myPopup");
-    popup.classList.toggle("show");
+  function myPopupFunction1() {
+    var popup1 = document.getElementById("myPopup1");
+    popup1.classList.toggle("show");
+  }
+
+  // When the user clicks on div, open the popup
+  function myPopupFunction2() {
+    var popup2 = document.getElementById("myPopup2");
+    popup2.classList.toggle("show");
+  }
+
+  // When the user clicks on div, open the popup
+  function myPopupFunction3() {
+    var popup3 = document.getElementById("myPopup3");
+    popup3.classList.toggle("show");
   }

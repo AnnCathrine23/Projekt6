@@ -637,7 +637,7 @@ th, td {
 }
 
 /*Popup alert*/
-.popup {
+.popup1 {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -648,7 +648,7 @@ th, td {
 }
 
 /* Selve popupen */
-.popup .popuptext {
+.popup1 .popuptext1 {
   visibility: hidden;
   width: 90px;
   background-color: #555;
@@ -665,7 +665,7 @@ th, td {
 }
 
 /* Popup pil */
-.popup .popuptext::after {
+.popup1 .popuptext1::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -677,10 +677,99 @@ th, td {
 }
 
 /* Toggle denne class - Gemmer og viser popupen */
-.popup .show {
+.popup1 .show {
   visibility: visible;
 }
 
+/*Popup alert*/
+.popup2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Selve popupen */
+.popup2 .popuptext2 {
+  visibility: hidden;
+  width: 90px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -45px;
+  font-size: 20px;
+}
+
+/* Popup pil */
+.popup2 .popuptext2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle denne class - Gemmer og viser popupen */
+.popup2 .show {
+  visibility: visible;
+}
+
+/*Popup alert*/
+.popup3 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Selve popupen */
+.popup3 .popuptext3 {
+  visibility: hidden;
+  width: 90px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -45px;
+  font-size: 20px;
+}
+
+/* Popup pil */
+.popup3 .popuptext3::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle denne class - Gemmer og viser popupen */
+.popup3 .show {
+  visibility: visible;
+}
 /* MEDIA QURRIES */
 /* media til header */
 @media screen and (max-width: 1120px) {
