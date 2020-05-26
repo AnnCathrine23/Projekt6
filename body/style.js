@@ -9,7 +9,7 @@ function myFunction() {
   }
 }
 
-// der er en lille fejl på denne kode
+// searchbar
 const results = ["Day report A", "Day report B", "Day report C", "Day report D"];
 document.getElementById("result").innerHTML = results.length;
 
