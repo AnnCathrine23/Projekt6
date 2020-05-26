@@ -48,20 +48,29 @@
   </header>
   <div class="genvejsikonafstand">
     <div class="genvejsikon">
-      <a href="rapport_edit.html" class="fas fa-edit fa-sm"></a>
+      <i class="fa fa-save fa-sm" onclick="alert('Your document has been saved.')"></i>
     </div>
     <br>
     <div class="genvejsikon">
       <i class="fa fa-print fa-sm" onClick="alert('Document was sent to the printer')"></i>
     </div>
     <div class="genvejsikon">
-      <i class="fa fa-file-pdf fa-sm"></i>
+      <div class="popup1" onclick="myPopupFunction1()">
+        <i class="fa fa-file-pdf fa-sm"></i>
+        <span class="popuptext1" id="myPopup1">This function does not work.</span>
+      </div>
     </div>
     <div class="genvejsikon">
-      <i class="fa fa-sync-alt fa-sm"></i>
+      <div class="popup2" onclick="myPopupFunction2()">
+        <i class="fa fa-sync-alt fa-sm"></i>
+        <span class="popuptext2" id="myPopup2">This function does not work.</span>
+      </div>
     </div>
     <div class="genvejsikon">
-      <i class="fa fa-share fa-sm"></i>
+      <div class="popup3" onclick="myPopupFunction3()">
+        <i class="fa fa-share fa-sm"></i>
+        <span class="popuptext3" id="myPopup3">This function does not work.</span>
+      </div>
     </div>
   </div>
   <home-page2 size="A4"><img src="img/a4page3.png" alt="Et billede af A4template"></home-page2>
