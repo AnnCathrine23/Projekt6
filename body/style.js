@@ -10,7 +10,7 @@ function myFunction() {
 }
 
 // der er en lille fejl på denne kode
-const results = ["Production A", "Production B", "Production C", "Production D"];
+const results = ["Day report A", "Day report B", "Day report C", "Day report D"];
 document.getElementById("result").innerHTML = results.length;
 
 function myFunction2() {
