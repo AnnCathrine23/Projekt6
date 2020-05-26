@@ -9,7 +9,7 @@ function myFunction() {
   }
 }
 
-// searchbar
+// resultater
 const results = ["Day report A", "Day report B", "Day report C", "Day report D"];
 document.getElementById("result").innerHTML = results.length;
 
