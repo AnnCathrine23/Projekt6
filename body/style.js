@@ -18,6 +18,7 @@ function myFunction2() {
        var input, filter, table, tr, td, i, txtValue;
        input = document.getElementById("myInput");
        filter = input.value.toUpperCase();
+       //console.log (filter);
        table = document.getElementById("myTable");
        tr = table.getElementsByTagName("tr");
 
@@ -25,11 +26,14 @@ function myFunction2() {
        for (i = 0; i < tr.length; i++) {
          td = tr[i].getElementsByTagName("td")[0];
          if (td) {
-           txtValue = td.textContent || td.innerText;
-           if (txtValue.toUpperCase().indexOf(filter) > -1) {
+           txtValue = td.textContent; // Finder tekst
+           //console.log(txtValue);
+           if (txtValue.toUpperCase().indexOf(filter) > -1) { // indexof leder efter string(filter= myinput)
              tr[i].style.display = "";
+             //console.log("fundet");
            } else {
              tr[i].style.display = "none";
+             //console.log("ikke fundet");
            }
          }
        }
@@ -60,6 +64,7 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+  //console.log(event.target);
 }
 
 //tabs - sidebar
