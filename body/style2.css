@@ -54,11 +54,11 @@ h1 {
   color: #ffffff;
 }
 
-.topnav a img {
+.topnav img {
   max-height: 100%;
   margin: 0 auto;
   width: auto;
-  padding: 14px 0 0 0;
+  padding: 7px 0 0 0;
 }
 
 .topnav .icon {
